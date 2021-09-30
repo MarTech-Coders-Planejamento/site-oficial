@@ -10,7 +10,7 @@
     border-radius: 5px;
 }
 
-.header {
+.headerNav {
     display: flex;
     align-items: center;
     padding: 5px;
@@ -48,43 +48,4 @@ hr {
     width: 98%;
     margin-inline-start: auto;
     margin-inline-end: auto;
-}
-.section1 {
-    height: 120px;
-    width: 100%;
-    text-align: center;
-    background-color: #204959;
-    color: red;
-}
-
-.section2 {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    background-color: #2B8C83;
-    color: red;
-}
-
-.section3 {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    background-color: #34BFA6;
-    color: red;
-}
-
-.section4 {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    background-color: #3BD9AC;
-    color: red;
-}
-
-footer {
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(186, 236, 4);
-    color: red;
 }
