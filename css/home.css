@@ -10,6 +10,19 @@
     border-radius: 5px;
 }
 
+.toggle {
+    display: none;
+}
+
+.icon {
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  font-size: 40px;
+  right: 50px;
+  /* display:none; */
+}
+
 .headerNav {
     display: flex;
     align-items: center;
@@ -49,3 +62,21 @@ hr {
     margin-inline-start: auto;
     margin-inline-end: auto;
 }
+
+/* 
+@media(max-width: 840px) {
+    .headerNav {
+        width: 100%;
+        background-color: green;
+    }
+    nav .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: red;
+    }
+
+    li {
+        text-align: center;
+    }
+
+} */
