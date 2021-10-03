@@ -2,81 +2,107 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-#logo1 {
-    width: 80px;
-    height: 70px;
-    border-radius: 5px;
-}
-
-.toggle {
-    display: none;
-}
-
-.icon {
-  color: red;
-  cursor: pointer;
-  position: absolute;
-  font-size: 40px;
-  right: 50px;
-  /* display:none; */
-}
-
-.headerNav {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-a {
-    text-decoration: none;
-    color: #1a2b46;
-}
-
-.menu {
-    display: flex;
-    padding: 20px;
-}
-
-.menu li {
-    list-style: none;
-    margin-left: 8px;
-    font-size: 20px;
-}
-
-.menu li a {
-    display: block;
-    padding: 10px;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #effffe;
+    background-color: #f1f1f1;
+    font-size: 16px; 
+    font-family: Arial;
 }
 
-hr {
-    display: block;
-    width: 98%;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+.headerNav {
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-/* 
-@media(max-width: 840px) {
+.logo {
+    width: 100px;
+    display: flex;
+}
+
+.menu ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+#toggle {
+    display: none;
+}
+
+.toggleLabel {
+    font-size: 45px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-left: auto;
+    padding: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 1185px) {
     .headerNav {
-        width: 100%;
+        background-color: red;
+        padding-left: 60px;
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .headerNav {
         background-color: green;
     }
-    nav .menu {
-        flex-direction: column;
-        align-items: flex-start;
-        background-color: red;
+
+    .toggleLabel {
+        display: block;
     }
 
-    li {
+    .menu ul {
+        position: fixed;
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        background-color: greenyellow;
+        top: 120px;
+        left: -100%;
         text-align: center;
     }
 
-} */
+    .menu ul li {
+        display: block;
+        margin: 40px 0;
+        line-height: 30px;
+    }
+
+    .menu ul li a {
+        color: blue;
+        font-size: 20px;
+    }
+
+    #toggle:checked ~ .menu ul {
+        display: block;
+        left: 0;
+    }
+}
