@@ -1,3 +1,17 @@
+:root {
+  --bg: #effffe;
+  --bg2: #38e0be;
+  --texto: #1a2b46;
+}
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Tomorrow", sans-serif;
+}
+
+.bg-one {
+  background-color: var(--bg);
+  color: var(--texto);
+}
+.bg-two {
+  background-color: var(--bg2);
+  color: var(--texto);
 }
