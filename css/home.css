@@ -1,4 +1,30 @@
 * {
     font-family: "Roboto", sans-serif;
-  }
-  
+}
+
+body {
+  background-color: burlywood;
+  padding-top: 100px !important;
+}
+
+/*navBar*/
+
+#logo {
+  width: 50px;
+}
+
+.navbar {
+  background-color: #a3ff87 !important;
+  padding: 14px 0;
+}
+
+#navbarLinks a:hover {
+  color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 18px;
+  padding: 1rem .8rem;
+  color: #565855;
+}
+
