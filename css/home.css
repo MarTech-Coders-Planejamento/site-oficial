@@ -7,6 +7,13 @@
   font-family: "Tomorrow", sans-serif;
 }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .bg-one {
   background-color: var(--bg);
   color: var(--texto);
