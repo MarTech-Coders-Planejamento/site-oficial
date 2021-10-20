@@ -1,48 +1,51 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    color: white;
-}
-
-header {
-    height: 80px;
-    width: 100%;
-    text-align: center;
-    background-color: #182940;
-}
-
-.section1 {
-    height: 120px;
-    width: 100%;
-    text-align: center;
-    background-color: #204959;
-}
-
-.section2 {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    background-color: #2B8C83;
-}
-
-.section3 {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    background-color: #34BFA6;
-}
-
-.section4 {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    background-color: #3BD9AC;
-}
-
-footer {
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(186, 236, 4);
-}
+:root {
+    --navbar: #d2eee8;
+    --bg: #effffe;
+    --bg2: #38e0be;
+    --texto: #1a2b46;
+    --textoLink: #565855;
+  }
+  
+  * {
+    font-family: "Tomorrow", sans-serif;
+  }
+  
+  body {
+    background-color: var(--bg);
+    padding-top: 100px !important;
+  }
+  
+  /*Inicio navBar*/
+  
+  #logo {
+    width: 50px;
+  }
+  
+  .navbar {
+    background-color: var(--navbar) !important;
+    padding: 14px 0;
+  }
+  
+  #navbarLinks a:hover {
+    color: var(--texto);
+    transition: .0s;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 1rem .8rem;
+    color: var(--textoLink);
+  }
+  /*Fim navBar*/
+  
+  
+  .bg-one {
+    background-color: var(--bg);
+    color: var(--texto);
+  }
+  
+  .bg-two {
+    background-color: var(--bg2);
+    color: var(--texto);
+  }
