@@ -13,26 +13,32 @@
 
 body {
   background-color: var(--bg);
-  padding-top: 100px !important;
+  padding-top: 90px !important;
 }
 
 /*Inicio navBar*/
 
-#logo {
-  width: 50px;
+.navbar {
+  background-color: var(--navbar);
+  padding: 14px 0;
 }
 
-.navbar {
-  background-color: var(--navbar) !important;
-  padding: 14px 0;
+#logo {
+  width: 320px;
+}
+
+.navbar-toggler {
+  border: 0;
+  font-size: 26px;
 }
 
 #navbarLinks a:hover {
   color: var(--texto);
   transition: .0s;
+  background-color: #f1f1f180;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
+.navbar .navbar-nav .nav-link {
   font-size: 18px;
   padding: 1rem .8rem;
   color: var(--textoLink);
@@ -48,5 +54,15 @@ body {
 .bg-two {
   background-color: var(--bg2);
   color: var(--texto);
+}
+
+/*navBar*/
+@media screen and (max-width: 988px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 18px;
+    text-align: left;
+    line-height: 100%;
+    border-bottom: 1px solid #00000067;
+  }
 }
 
