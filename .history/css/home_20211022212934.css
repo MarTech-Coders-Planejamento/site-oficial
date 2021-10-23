@@ -22,13 +22,3 @@
   background-color: var(--bg2);
   color: var(--texto);
 }
-
-/* Slider Container*/
-
-.item img{
-  width: 300px;
-}
-
-.owl-stage{
-  padding: 0 !important;
-}

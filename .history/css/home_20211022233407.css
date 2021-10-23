@@ -23,12 +23,11 @@
   color: var(--texto);
 }
 
-/* Slider Container*/
-
-.item img{
-  width: 300px;
+.item{
+  width: 400px;
+  height: 400px;
 }
 
 .owl-stage{
-  padding: 0 !important;
+  padding: 0;
 }
