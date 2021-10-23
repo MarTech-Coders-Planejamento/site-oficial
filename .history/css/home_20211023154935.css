@@ -25,10 +25,20 @@
 
 /* Slider Container*/
 
-.img-fluid img{
-  width: 200px;
+#slider-container{
+ justify-content: center;
 }
 
-.item{
+.card-img-top img{
   width: 300px;
+}
+
+.owl-stage{
+  padding: 0 !important;
+  overflow: hidden;
+  display: block;
+}
+
+.img-fluid{
+  width: 50%;
 }

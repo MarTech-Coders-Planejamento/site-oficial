@@ -25,10 +25,16 @@
 
 /* Slider Container*/
 
+#slider-container{
+ justify-content: center;
+}
+
 .img-fluid img{
   width: 200px;
 }
 
-.item{
-  width: 300px;
+.owl-stage{
+  padding: 0 !important;
+  overflow: hidden;
+  display: block;
 }
