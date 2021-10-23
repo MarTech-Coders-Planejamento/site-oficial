@@ -2,8 +2,8 @@
   --bg: #effffe;
   --bg2: #38e0be;
   --texto: #1a2b46;
-  --bg-btn:#90bcb3;/* Background dos botões*/
-  --border-btn:#5f9e92;/* Border dos botões*/
+  --bg-btn:#90bcb3;
+  --border-btn:#5f9e92;
 }
 * {
   font-family: "Tomorrow", sans-serif;
@@ -17,8 +17,7 @@
 }
 
 .bg-one {
-  background-color: var(--bg);/*cor de fundo que está no mockup*/
-  color: var(--texto);
+  background-color: var(--bg);
 }
 
 .bg-two {
