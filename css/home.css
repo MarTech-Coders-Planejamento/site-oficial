@@ -2,6 +2,8 @@
   --bg: #effffe;
   --bg2: #38e0be;
   --texto: #1a2b46;
+  --bg-btn:#90bcb3;
+  --border-btn:#5f9e92;
 }
 * {
   font-family: "Tomorrow", sans-serif;
@@ -24,50 +26,55 @@
   color: var(--texto);
 }
 
-.container1 {
-  border: 1px solid yellowgreen;
-  height: 100vh;
-  width: auto;
-}
+/* Início do CSS section-one */
 
-.row {
-  border: 1px solid blue;
-  display: flex;
-  justify-content:space-between;
-}
-
-#title-s1 {
-  border: 1px solid blueviolet;
-  margin: 30px 0 30px 0;  
+.section-one {
+  background-color: var(--bg);
+  color: var(--texto);
+  background-image: url(../image/rm222batch2-kul-30_Easy-Resize.com\ \(2\)_adobespark);
 }
 
 h1 {
-  font-style: oblique;
-  font-weight: bolder;
+  font-style: normal;
+  font-weight: bold;
 }
 
-.col-5 {
-  border: 1px solid red;
-  height: 300px;
+p {
+  font-weight: bold;
+  font-size: 17px;
+  align-items: center;
 }
 
-#paragrafo-s1 {
-  border: 1px solid green;
-  width: 50%;
+.container1 {
+ 
+  height: 100vh;
+  width: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+#conteudo1 {
+  text-align: left;
+}
+
+#conteudo2 {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#paragrafo1 {
+  margin: -24px;
+  margin-top: 26px;
 }
 
 .btn-group {
-  margin: 0 0 0 -12px;
+  margin: 0 0 0 -50px;
+  position: relative;
+  color: #90bcb3;
 }
-
-.btn-primary {
-  color: #1a2b46;
-
-}
-
-#btnGroupDrop1 {
-  position: fixed;
-}
-
 
 
