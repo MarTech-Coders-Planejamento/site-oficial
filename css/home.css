@@ -21,6 +21,7 @@ body {
 .navbar {
   background-color: var(--navbar);
   padding: 14px 0;
+  box-shadow: 0 0 1em #38e0be; 
 }
 
 #logo {
