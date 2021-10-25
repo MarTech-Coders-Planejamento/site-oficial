@@ -1,69 +1,340 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Fonts Google-->
-    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <!--Storyset-->
+    <a href="https://storyset.com/online"></a>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
 
-
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="/css/form.css" />
     <title>Home</title>
-</head>
-<body>
-    
-    <div class="container-fluid"> <!--cabeçalho fluido-->  
-        <header >
-            <nav>                
-            </nav>
-        </header>
-        <main>
-            <section class="bg-one"> <!--dobra1-->   
-                <article>
-                    <header></header>
-                    <h1></h1>
-                    <p></p>
-                    <figure></figure>
-                    <button></button>             
-                </article>
-            </section>
-            <section class="bg-two"> <!--dobra2-->   
-                <article>
-                    <h2></h2>
-                    <p></p>
-                    <figure></figure>            
-                </article>
-            </section>
-            <section class="bg-one"> <!--dobra3-->   
-                <article>
-                    <header></header>
-                    <p></p>
-                    <figure></figure>            
-                </article>
-            </section>
-            <section class="bg-two"> <!--dobra4-->   
-                <article>
-                    <header></header>
-                    <img>
-                    <figure></figure> 
-                    <p>
-                    </p>           
-                </article>
-            </section>          
-        </main>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--cabeçalho fluido-->
+      <header>
+        <nav></nav>
+      </header>
+      <main>
+        <section class="bg-one">
+          <!--dobra1-->
+          <article>
+            <header></header>
+            <h1></h1>
+            <p></p>
+            <figure></figure>
+            <button></button>
+          </article>
+        </section>
+        <section class="bg-two">
+          <!--dobra2-->
+          <article>
+            <h2></h2>
+            <p></p>
+            <figure></figure>
+          </article>
+        </section>
+        <section class="bg-one">
+          <!--dobra3-->
+          <article>
+            <header></header>
+            <p></p>
+            <figure></figure>
+          </article>
+        </section>
+        <section class="bg-two">
+          <!--dobra4-->
+          <article>
+            <header></header>
+            <img />
+            <figure></figure>
+            <p></p>
+          </article>
+        </section>
+      </main>
 
-        <footer class="bg-one"> <!--footer--> 
-            <article></article>
-            <p> </p>           
-       </footer>
+      <footer class="bg-one">
+        <!--footer-->
+        <article>
+          <form id="container">
+            <img id="img-form" src="/image/img-form.svg" />
+            <div id="container-form">
+              <div id="titulo"><h1>Cadastre-se</h1></div>
+              <section id="form-1">
+                <div>Nome completo</div>
+                <input type="text" />
+                <div>E-mail</div>
+                <input type="text" />
+                <div>Telefone</div>
+                <input type="text" />
+                <div>LinkedIn</div>
+                <input type="text" />
+              </section>
+              <section id="form-2">
+                <div><h3>Em que faixa etária você está?</h3></div>
+                <div id="container-form-2">
+                  <div id="container-form-2-A">
+                    <label for="op1">
+                      <input type="radio" name="idade" id="op1" />
+                      15 a 19 anos
+                    </label>
+                    <br />
+                    <label for="op2">
+                      <input type="radio" name="idade" id="op2" />
+                      20 a 24 anos
+                    </label>
+                    <br />
+                    <label for="op3">
+                      <input type="radio" name="idade" id="op3" />
+                      25 a 29 anos
+                    </label>
+                    <br />
+                    <label for="op4">
+                      <input type="radio" name="idade" id="op4" />
+                      30 a 34 anos
+                    </label>
+                  </div>
+                  <div id="container-form-2-B">
+                    <label for="op1">
+                      <input type="radio" name="idade" id="op1" />
+                      35 a 39 anos
+                    </label>
+                    <br />
+                    <label for="op2">
+                      <input type="radio" name="idade" id="op2" />
+                      40 a 44 anos
+                    </label>
+                    <br />
+                    <label for="op3">
+                      <input type="radio" name="idade" id="op3" />
+                      45 a 49 anos
+                    </label>
+                    <br />
+                    <label for="op4">
+                      <input type="radio" name="idade" id="op4" />
+                      50+
+                    </label>
+                  </div>
+                </div>
+              </section>
+              <section id="form-3">
+                <div>
+                  <h3>
+                    Referente ao seu gênero, <br />
+                    você se identifica como:
+                  </h3>
+                </div>
+                <div id="container-form-3">
+                  <div id="container-form-3-A">
+                    <label for="op1">
+                      <input type="radio" name="genero" id="op1" />
+                      Mulher cis
+                    </label>
+                    <br />
+                    <label for="op2">
+                      <input type="radio" name="genero" id="op2" />
+                      Homem cis
+                    </label>
+                    <br />
+                    <label for="op3">
+                      <input type="radio" name="genero" id="op3" />
+                      Mulher trans
+                    </label>
+                    <br />
+                  </div>
+                  <div id="container-form-3-B">
+                    <label for="op1">
+                      <input type="radio" name="genero" id="op1" />
+                      Homem trans
+                    </label>
+                    <br />
+                    <label for="op2">
+                      <input type="radio" name="genero" id="op2" />
+                      Não-binário
+                    </label>
+                    <br />
+                    <label for="op3">
+                      <input type="radio" name="genero" id="op3" />
+                      Outro
+                    </label>
+                    <br />
+                  </div>
+                </div>
+              </section>
+              <section id="form-4">
+                <div>
+                  <h3>
+                    Você acha que seu nivel em <br />
+                    programação é:
+                  </h3>
+                </div>
+                <div id="container-form-4">
+                  <div id="container-form-4-A">
+                    <label for="op1">
+                      <input type="radio" name="nivel" id="op1" />
+                      Iniciante
+                    </label>
+                    <br />
+                    <label for="op2">
+                      <input type="radio" name="nivel" id="op2" />
+                      Intermediário
+                    </label>
+                    <br />
+                    <label for="op3">
+                      <input type="radio" name="nivel" id="op3" />
+                      Avançado
+                    </label>
+                    <br />
+                  </div>
+                </div>
+              </section>
+              <section id="form-5">
+                <div>
+                  <h3>
+                    Você tem domínio ou alguma noção <br />
+                    das linguagnes abaixo?
+                  </h3>
+                </div>
+                <div id="container-form-5">
+                  <div id="container-form-5-A">
+                    <label for="op1">
+                      <input type="radio" name="Java" id="op1" />
+                      Java
+                    </label>
+                    <br />
+                    <label for="op2">
+                      <input type="radio" name="Javascript" id="op2" />
+                      Javascript
+                    </label>
+                    <br />
+                    <label for="op3">
+                      <input type="radio" name="Python" id="op3" />
+                      Python
+                    </label>
+                    <br />
+                    <label for="op4">
+                      <input type="radio" name="PHP" id="op4" />
+                      PHP
+                    </label>
+                  </div>
+                  <div id="container-form-5-B">
+                    <label for="op1">
+                      <input type="radio" name="C" id="op1" />
+                      C
+                    </label>
+                    <br />
+                    <label for="op2">
+                      <input type="radio" name="C++" id="op2" />
+                      C++
+                    </label>
+                    <br />
+                    <label for="op3">
+                      <input type="radio" name="C#" id="op3" />
+                      C#
+                    </label>
+                    <br />
+                    <label for="op4">
+                      <input type="radio" name="R" id="op4" />
+                      R
+                    </label>
+                  </div>
+                </div>
+              </section>
+              <section id="form-6">
+                <div>
+                  <h3>Qual o seu nível em:</h3>
+                </div>
+                <div id="container-form-6">
+                  <div id="cont">
+                    <div>0</div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                  </div>
+                  <label for="">
+                    HTML
+                    <div id="cont-1">
+                      <input type="radio" value="0" name="HTML" id="" />
+                      <input type="radio" value="1" name="HTML" id="" />
+                      <input type="radio" value="2" name="HTML" id="" />
+                      <input type="radio" value="3" name="HTML" id="" />
+                      <input type="radio" value="4" name="HTML" id="" />
+                      <input type="radio" value="5" name="HTML" id="" />
+                    </div>
+                  </label>
+                  <br />
+                  <label for="">
+                    JS
+                    <div id="cont-2">
+                      <input type="radio" value="0" name="JS" id="" />
+                      <input type="radio" value="1" name="JS" id="" />
+                      <input type="radio" value="2" name="JS" id="" />
+                      <input type="radio" value="3" name="JS" id="" />
+                      <input type="radio" value="4" name="JS" id="" />
+                      <input type="radio" value="5" name="JS" id="" />
+                    </div>
+                  </label>
+                  <br />
+                  <label for="">
+                    CSS
+                    <div id="cont-3">
+                      <input type="radio" value="0" name="CSS" id="" />
+                      <input type="radio" value="1" name="CSS" id="" />
+                      <input type="radio" value="2" name="CSS" id="" />
+                      <input type="radio" value="3" name="CSS" id="" />
+                      <input type="radio" value="4" name="CSS" id="" />
+                      <input type="radio" value="5" name="CSS" id="" />
+                    </div>
+                  </label>
+                  <br />
+                  <label for="">
+                    GIT
+                    <div id="cont-4">
+                      <input type="radio" value="0" name="GIT" id="" />
+                      <input type="radio" value="1" name="GIT" id="" />
+                      <input type="radio" value="2" name="GIT" id="" />
+                      <input type="radio" value="3" name="GIT" id="" />
+                      <input type="radio" value="4" name="GIT" id="" />
+                      <input type="radio" value="5" name="GIT" id="" />
+                    </div>
+                  </label>
+                </div>
+              </section>
+              <div id="box-button">
+                <button id="button-form" type="click" value="Cadastrar">
+                  Proximo
+                </button>
+              </div>
+            </div>
+          </form>
+        </article>
+      </footer>
     </div>
 
     <!-- Bootstrap Bundle javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="/scripts/script-form.js"></script>
+  </body>
 </html>
