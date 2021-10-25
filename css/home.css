@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css");
+
 :root {
   --bg: #effffe;
   --bg2: #38e0be;
@@ -21,4 +23,45 @@
 .bg-two {
   background-color: var(--bg2);
   color: var(--texto);
+}
+
+/*** FOOTER ***/
+footer .logo {
+  max-width: 320px;
+}
+
+footer h3 {
+  color: var(--texto);
+}
+
+footer .address ul {
+  margin-top: 20px;
+}
+footer .address a {
+  text-decoration: none;
+  color: var(--texto);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+footer .address li:nth-last-child(1n) {
+  margin-top: 10px;
+}
+
+footer .address .address-icon {
+  color: var(--bg2);
+  font-size: 1.2rem;
+}
+
+footer .footer {
+  background-color: var(--texto);
+}
+footer .footer a {
+  text-decoration: none;
+}
+footer .footer span {
+  color: var(--bg);
+}
+footer .footer .simbol {
+  color: var(--bg2);
 }
