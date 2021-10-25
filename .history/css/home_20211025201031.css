@@ -32,3 +32,9 @@
 #mentoria-container{
   padding-top: 15px;
 }
+
+@media screen and (max-width:600) {
+  .card{
+    height: 612px;
+  }
+}

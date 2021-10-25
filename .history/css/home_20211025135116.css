@@ -25,10 +25,8 @@
 
 /* Slider Container*/
 
-#image-container{
-  padding-top: 15px;
-}
-
-#mentoria-container{
-  padding-top: 15px;
+.img-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
