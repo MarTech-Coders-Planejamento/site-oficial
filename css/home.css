@@ -17,10 +17,10 @@ body {
 }
 
 /*Inicio navBar*/
-
 .navbar {
   background-color: var(--navbar);
   padding: 14px 0;
+  box-shadow: 0 0 1em #38e0be;
 }
 
 #logo {
@@ -37,6 +37,8 @@ body {
   transition: .0s;
   background-color: #f1f1f180;
 }
+/*Fim navBar*/
+
 
 .navbar .navbar-nav .nav-link {
   font-size: 18px;
@@ -44,7 +46,6 @@ body {
   color: var(--textoLink);
 }
 /*Fim navBar*/
-
 
 .bg-one {
   background-color: var(--bg);
