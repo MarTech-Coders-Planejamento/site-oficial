@@ -37,12 +37,14 @@ body {
   transition: .0s;
   background-color: #f1f1f180;
 }
-/*Fim navBar*/
+
 .navbar .navbar-nav .nav-link {
   font-size: 18px;
   padding: 1rem .8rem;
   color: var(--textoLink);
 }
+/*Fim navBar*/
+
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -60,7 +62,6 @@ body {
 }
 
 /* Início do CSS section-one */
-
 .section-one {
   background-color: var(--bg);
   color: var(--texto);
@@ -87,6 +88,7 @@ p {
   background-color: var(--bg2);
   color: var(--texto);
 }
+/* Fim do CSS section-one */
 
 /*navBar*/
 @media screen and (max-width: 988px) {
@@ -97,6 +99,7 @@ p {
     border-bottom: 1px solid #00000067;
   }
 }
+
 .container1 {
  
   height: 100vh;
@@ -135,3 +138,5 @@ p {
   font-size: 20;
   font-weight: bold;
 }
+
+
