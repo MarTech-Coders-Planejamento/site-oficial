@@ -66,4 +66,18 @@ body {
     border-bottom: 1px solid #00000067;
   }
 }
-
+/*navBar*/
+@media screen and (max-width: 426px) {
+  #logo {
+    width: 200px;
+  }
+  .navbar-toggler {
+    border: 0;
+    font-size: 20px;
+  }
+  .navbar .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 1rem .8rem;
+    color: var(--textoLink);
+  }
+}
