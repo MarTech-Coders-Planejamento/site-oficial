@@ -38,14 +38,45 @@ body {
   background-color: #f1f1f180;
 }
 /*Fim navBar*/
-
-
 .navbar .navbar-nav .nav-link {
   font-size: 18px;
   padding: 1rem .8rem;
   color: var(--textoLink);
 }
-/*Fim navBar*/
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bg-one {
+  background-color: var(--bg);
+  color: var(--texto);
+}
+
+.bg-two {
+  background-color: var(--bg2);
+  color: var(--texto);
+}
+
+/* Início do CSS section-one */
+
+.section-one {
+  background-color: var(--bg);
+  color: var(--texto);
+  background: no-repeat center/cover url(../image/rm222batch2-kul-30_Easy-Resize.com\ \(2\)_adobespark);
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+  font-size: 17px;
+  align-items: center;
+}
 
 .bg-one {
   background-color: var(--bg);
@@ -66,3 +97,36 @@ body {
     border-bottom: 1px solid #00000067;
   }
 }
+.container1 {
+ 
+  height: 100vh;
+  width: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+#conteudo1 {
+  text-align: left;
+}
+
+#conteudo2 {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#paragrafo1 {
+  margin: -24px;
+  margin-top: 26px;
+}
+
+.btn-group {
+  margin: 0 0 0 -50px;
+  position: relative;
+  color: #90bcb3;
+}
+
+
