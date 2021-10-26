@@ -18,5 +18,5 @@ button.addEventListener("click", function (event) {
       console.log("enviado");
     });
   }
-  contador.textContent = i+1 + "/6";
+  contador.textContent = i + 1 + "/6";
 });
