@@ -149,7 +149,7 @@ p{
   justify-content: space-evenly;
 
 }
-.btn{
+.btn-tec .btn{
   border-radius: 3rem;
   padding: 1rem 4rem;
   border-color: var(--border-btn);
@@ -184,3 +184,14 @@ p{
   }
 }
 /*Fim do section-three-update*/
+
+/* Slider Container*/
+#image-container{
+  padding-top: 15px;
+}
+
+#mentoria-container{
+  padding-top: 15px;
+}
+
+/* Fim Slider Container*/
