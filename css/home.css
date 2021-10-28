@@ -56,7 +56,10 @@ body {
   }
 }
 /*navBar*/
-@media screen and (max-width: 426px) {
+@media (min-width: 260px) and (max-width: 426px) {
+  body {
+    padding-top: 60px !important;
+  }
   #logo {
     width: 200px;
   }
