@@ -131,57 +131,19 @@ h1 {
 /* Fim do CSS section-one */
 
 /*Início do section-three-update*/
-.btn-tec{
-  color: var(--texto);
-  height: 100vh;
-}
-h3{
-  font-size: 2rem;
-}
-p{
-  color: var(--texto);
-  margin-top: 2rem;
-  font-size: 1.3rem;
-}
-.btn-tectwo{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 
-}
-.btn-tec .btn{
-  border-radius: 3rem;
-  padding: 1rem 4rem;
-  border-color: var(--border-btn);
-  border-width: 2px;
-  background-color: var(--bg-btn);
-  font: 700 3rem;
-  color:var(--texto);
-  margin-top: 5rem;
-  pointer-events: none;
+.btn-tec .btn-tecone{
+  word-wrap: break-all;
 }
 
+.btn-tec h3{
+  font-weight: bold;
+}
 @media screen and (max-width:775px){
   .btn-tec{
     flex-wrap: nowrap;
   }
-  .btn-tectwo{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 0.5rem;
-  }
-  h3{
-    font-size: 1.2rem;
-  }
-  p{
-    margin-top: .6rem;
-    font-size: .9rem;
-  }
-  .btn{
-    margin-top: 1.1rem;
-    padding: .8rem .8rem;
-
-  }
+ 
 }
 /*Fim do section-three-update*/
 
