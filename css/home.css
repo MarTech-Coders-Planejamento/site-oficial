@@ -74,7 +74,7 @@ body {
   }
 }
 /*Fim navBar*/
-
+/*Background-color*/
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -82,21 +82,24 @@ body {
   margin-left: auto;
 }
 .bg-one {
-  background-color: #9adfd3;/*cor de fundo que está no mockup*/
+  background-color: #F6F8FA;
   color: var(--texto);
 }
-
 .bg-two {
-  background-color: var(--bg2);
+  background-color: var(--bg-btn);
+}
+.bg-two-2 {
+  background-color: #F6F8FA;
   color: var(--texto);
 }
-
-/* Início do CSS section-one */
 .section-one {
-  background-color: var(--bg);
+  background-color: var(--bg-btn);
   color: var(--texto);
-  background: no-repeat center/cover url(../image/rm222batch2-kul-30_Easy-Resize.com\ \(2\)_adobespark);
 }
+.footerMain {
+  background-color: var(--bg-btn);
+}
+/*Fim Background-color*/
 h1 {
   font-style: normal;
   font-weight: bold;
