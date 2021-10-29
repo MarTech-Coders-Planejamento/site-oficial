@@ -96,6 +96,9 @@ body {
   background-color: var(--bg-btn);
   color: var(--texto);
 }
+.bg-Form {
+  background-color: #F6F8FA;
+}
 .footerMain {
   background-color: var(--bg-btn);
 }
@@ -137,9 +140,12 @@ h1 {
 /* Fim do CSS section-one */
 
 /*Inicio Section-Two*/
-
-.dobratwo {
-  max-width: 320px;
+.classDobra2 p {
+  font-size: 26px;
+}
+.ceo {
+  text-align: right;
+  font-size: 26px;
 }
 /*Final Section-Two*/
 
