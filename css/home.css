@@ -1,7 +1,7 @@
 
 :root {
   --navbar: #d2eee8;
-  --bg: #effffe;
+  --bg: #ffffff;
   --bg2: #38e0be;
   --texto: #1a2b46;
   --textoLink: #565855;
@@ -15,14 +15,14 @@
 
 body {
   background-color: var(--bg);
-  padding-top: 90px !important;
+  
 }
 
 /*Inicio navBar*/
 .navbar {
-  background-color: var(--navbar);
+  background-color: var(--bg);
   padding: 14px 0;
-  box-shadow: 0 0 1em #38e0be;
+  /* box-shadow: 0 0 1em #38e0be; */
 }
 
 #logo {
@@ -41,9 +41,9 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 18px;
+  font-size: 20px;
   padding: 1rem .8rem;
-  color: var(--textoLink);
+  color: var(--texto);
 }
 
 /*navBar*/
@@ -57,8 +57,27 @@ body {
 }
 /*navBar*/
 @media (min-width: 260px) and (max-width: 426px) {
-  body {
-    padding-top: 60px !important;
+  img-one {
+    display: none;
+  }
+  #paragrafo1 {
+    padding: 0;
+    margin: -24px;
+    margin-top: 6px;
+  }
+  .rowSectionOne {
+    padding-right: 40px;
+    margin-top: 5px;
+    padding: 0 5px 5px 0;
+  }
+  .title h1 {
+    margin-top: 0;
+    font-size: 30px !important;
+  }
+  .img-one {
+    width: 502px;
+    margin: 0 50px;
+    margin-left: 50px;
   }
   #logo {
     width: 200px;
@@ -82,22 +101,22 @@ body {
   margin-left: auto;
 }
 .bg-one {
-  background-color: #F6F8FA;
+  background-color: #ffffff;
   color: var(--texto);
 }
 .bg-two {
-  background-color: var(--bg-btn);
+  background-color: #ffffff;
 }
 .bg-two-2 {
-  background-color: #F6F8FA;
+  background-color: #ffffff;
   color: var(--texto);
 }
 .section-one {
-  background-color: var(--bg-btn);
+  background-color: var(--bg);
   color: var(--texto);
 }
 .bg-Form {
-  background-color: #F6F8FA;
+  background-color: #ffffff;
 }
 .footerMain {
   background-color: var(--bg-btn);
@@ -113,13 +132,13 @@ h1 {
   align-items: center;
 }
 .container1 {
- 
-  height: 100vh;
   width: 100%;
 }
-.title {
-  text-transform: uppercase;
-  margin-top: 1em;
+.rowSectionOne {
+  margin-top: 20px;
+  padding: 0 20px 20px 0;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 }
 #conteudo1 {
   text-align: left;
@@ -131,11 +150,15 @@ h1 {
 }
 #paragrafo1 {
   margin: -24px;
-  margin-top: 26px;
+  margin-top: 6px;
 }
 .btn-group {
   margin: 0 0 0 -50px;
   position: relative;  
+}
+#btnGroupDrop1 {
+  background-color: var(--bg2);
+  color: #ffffff;
 }
 /* Fim do CSS section-one */
 
@@ -153,14 +176,49 @@ h1 {
 /*Final Section-Two*/
 
 /*Início do section-three-update*/
+.cardContainer {
+  position:relative;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.cardChild {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: block;
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
 
+}
+
+.cardChild::after {
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: -1;
+}
+.cardChild:hover {
+  transform:scale(1.05,1.05);
+}
+
+.cardChild:hover::after {
+  opacity:1;
+}
+.cardChild h4 {
+  color: red;
+  margin-top: 50%;
+}
 .btn-tec .btn-tecone{
   word-wrap: break-all;
 }
 
-.btn-tec h3{
-  font-weight: bold;
-}
 @media screen and (max-width:775px){
   .btn-tec{
     flex-wrap: nowrap;
