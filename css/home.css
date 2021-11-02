@@ -8,45 +8,37 @@
   --bg-btn:#90bcb3;/* Background dos botões*/
   --border-btn:#5f9e92;/* Border dos botões*/
 }
-
 * {
   font-family: "Tomorrow", sans-serif;
 }
 
 body {
-  background-color: var(--bg);
-  
+  background-color: var(--bg);  
 }
-
 /*Inicio navBar*/
 .navbar {
   background-color: var(--bg);
   padding: 14px 0;
   /* box-shadow: 0 0 1em #38e0be; */
 }
-
 #logo {
   width: 320px;
 }
-
 .navbar-toggler {
   border: 0;
   font-size: 26px;
 }
-
 .navbar .navbar-nav .nav-link {
   position: relative;
   font-size: 20px;
   padding: 1rem .8rem;
   color: var(--texto);
 }
-
 #navbarLinks a:hover {
   color: var(--bg2);
   transition: .0s;
   /* box-shadow: 0 0 1em #38e0be; */
 }
-
 /*navBar*/
 @media screen and (max-width: 988px) {
   .navbar .navbar-nav .nav-link {
@@ -65,7 +57,7 @@ body {
   }
   .rowSectionOne {
     padding-right: 40px;
-    margin-top: 5px;
+    margin-top: 5px !important;
     padding: 0 5px 5px 0;
   }
   .title h1 {
@@ -94,6 +86,7 @@ body {
   }
 }
 /*Fim navBar*/
+
 /*Background-color*/
 .container-fluid {
   padding-right: 0;
@@ -102,14 +95,14 @@ body {
   margin-left: auto;
 }
 .bg-one {
-  background-color: #ffffff;
+  background-color: var(--bg);
   color: var(--texto);
 }
 .bg-two {
-  background-color: #ffffff;
+  background-color: var(--bg);
 }
 .bg-two-2 {
-  background-color: #ffffff;
+  background-color: var(--bg);
   color: var(--texto);
 }
 .section-one {
@@ -117,12 +110,11 @@ body {
   color: var(--texto);
 }
 .bg-Form {
-  background-color: #ffffff;
-}
-.footer-Main {
-  background-color: var(--bg-btn);
+  background-color: var(--bg);
 }
 /*Fim Background-color*/
+
+/*Início do CSS section-one */
 h1 {
   font-style: normal;
   font-weight: bold;
@@ -138,8 +130,6 @@ h1 {
 .rowSectionOne {
   margin-top: 20px;
   padding: 0 20px 20px 0;
-  /* padding-left: 20px;
-  padding-right: 20px; */
 }
 #conteudo1 {
   text-align: left;
@@ -159,11 +149,15 @@ h1 {
 }
 #btnGroupDrop1 {
   background-color: var(--bg2);
-  color: #ffffff;
+  color: var(--bg);
 }
-/* Fim do CSS section-one */
+#btnGroupDrop1:hover {
+  background-color: var(--texto) !important;
+  color: var(--bg);
+}
+/*Fim do CSS section-one*/
 
-/*Inicio Section-Two*/
+/*Inicio do CSS section-Two*/
 .imgDobraTwo {
   width: 3200px;
 }
@@ -172,63 +166,68 @@ h1 {
 }
 .ceo {
   text-align: right;
-  font-size: 20px;
+  font-size: 18px;
 }
-/*Final Section-Two*/
+/*Final do CSS section-two*/
 
-/*Início do section-three-update*/
+/*Início do CSS section-three*/
 .btn-tec .btn-tecone{
   word-wrap: break-all;
 }
-
 @media screen and (max-width:775px){
   .btn-tec{
     flex-wrap: nowrap;
   }
- 
 }
-/*Fim do section-three-update*/
+/*Fim do CSS section-three*/
 
-/* Slider Container*/
+/*Slider Container*/
 #image-container{
   padding-top: 15px;
 }
-
 #mentoria-container{
   padding-top: 15px;
 }
+/*Fim Slider Container*/
 
-/* Fim Slider Container*/
-.section3 {
+/*Início do CSS section-four*/
+.section4 {
   margin-top: 50px;
-  background-color: var(--bg2);
+  background-color: var(--bg);
 }
-.section3 h4 {
+.section4 img {
+  height: 250px;
+}
+.section4 h4 {
   text-align: center;
   font-weight: bold;
   text-transform: lowercase;
   font-size: 30px;
   color: var(--texto);
 }
-.section3 p {
+.section4 p {
   padding: 30px;
   font-size: 25px;
   text-align: center;
   text-transform: lowercase;
   color: var(--texto);
 }
-.section3 btn {
-  padding: 20px !important;
+.section4 .btn:hover {
+  background-color: var(--texto) !important;
+  color: var(--bg);
 }
+/*Fim do CSS section-four*/
+
 /*** FOOTER ***/
+.footer-Main {
+  background-color: var(--bg-btn);
+}
 footer .logo {
   max-width: 320px;
 }
-
 footer h3 {
   color: var(--texto);
 }
-
 footer .address ul {
   margin-top: 20px;
 }
@@ -238,16 +237,13 @@ footer .address a {
   font-size: 1rem;
   font-weight: 400;
 }
-
 footer .address li:nth-last-child(1n) {
   margin-top: 10px;
 }
-
 footer .address .address-icon {
   color: var(--texto);
   font-size: 1.2rem;
 }
-
 footer .footer {
   background-color: var(--texto);
 }
