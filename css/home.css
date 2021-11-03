@@ -1,24 +1,277 @@
+
 :root {
-  --bg: #effffe;
+  --navbar: #d2eee8;
+  --bg: #ffffff;
   --bg2: #38e0be;
   --texto: #1a2b46;
+  --textoLink: #565855;
+  --bg-btn:#90bcb3;/* Background dos botões*/
+  --border-btn:#5f9e92;/* Border dos botões*/
 }
 * {
   font-family: "Tomorrow", sans-serif;
 }
 
+body {
+  background-color: var(--bg);  
+}
+/*Inicio navBar*/
+.navbar {
+  background-color: var(--bg);
+  padding: 14px 0;
+  /* box-shadow: 0 0 1em #38e0be; */
+}
+#logo {
+  width: 320px;
+}
+.navbar-toggler {
+  border: 0;
+  font-size: 26px;
+}
+.navbar .navbar-nav .nav-link {
+  position: relative;
+  font-size: 20px;
+  padding: 1rem .8rem;
+  color: var(--texto);
+}
+#navbarLinks a:hover {
+  color: var(--bg2);
+  transition: .0s;
+  /* box-shadow: 0 0 1em #38e0be; */
+}
+/*navBar*/
+@media screen and (max-width: 988px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 18px;
+    text-align: left;
+    line-height: 100%;
+    border-bottom: 1px solid #00000067;
+  }
+}
+/*navBar*/
+@media (min-width: 260px) and (max-width: 426px) {
+  #paragrafo1 {
+    padding: 0;
+    margin: -24px;
+    margin-top: 6px;
+  }
+  .rowSectionOne {
+    padding-right: 40px;
+    margin-top: 5px !important;
+    padding: 0 5px 5px 0;
+  }
+  .title h1 {
+    margin-top: 0;
+    font-size: 30px !important;
+  }
+  .img-one {
+    width: 502px;
+    margin: 0 50px;
+    margin-left: 50px;
+  }
+  #logo {
+    width: 200px;
+  }
+  .navbar-toggler {
+    border: 0;
+    font-size: 20px;
+  }
+  .navbar .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 1rem .8rem;
+    color: var(--textoLink);
+  }
+  .dobra-two {
+    display: none;
+  }
+}
+/*Fim navBar*/
+
+/*Background-color*/
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
   margin-right: auto;
   margin-left: auto;
 }
-
 .bg-one {
   background-color: var(--bg);
   color: var(--texto);
 }
 .bg-two {
-  background-color: var(--bg2);
+  background-color: var(--bg);
+}
+.bg-two-2 {
+  background-color: var(--bg);
   color: var(--texto);
+}
+.section-one {
+  background-color: var(--bg);
+  color: var(--texto);
+}
+.bg-Form {
+  background-color: var(--bg);
+}
+/*Fim Background-color*/
+
+/*Início do CSS section-one */
+h1 {
+  font-style: normal;
+  font-weight: bold;
+}
+#paragrafo1-0 p {
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+}
+.container1 {
+  width: 100%;
+}
+.rowSectionOne {
+  margin-top: 20px;
+  padding: 0 20px 20px 0;
+}
+#paragrafo1-1 {
+  margin: -24px;
+  margin-top: 6px;
+  font-size: 20px;
+}
+.img-one {
+  display: flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+#paragrafo2 {
+  margin-right: 50px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+  justify-content:flex-end;
+  text-align: left;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 50px 30px 15px var(--texto);
+}
+
+.btn-group {
+  width: 10px;
+  margin-left: 0;
+  position: relative;
+}
+#btnGroupDrop1 {
+  background-color: var(--bg2);
+  color: var(--bg);
+}
+#btnGroupDrop1:hover {
+  background-color: var(--texto) !important;
+  color: var(--bg);
+}
+#alvo {
+  width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Fim do CSS section-one*/
+
+/*Inicio do CSS section-Two*/
+.imgDobraTwo {
+  width: 3200px;
+}
+.classDobra2 p {
+  font-size: 20px;
+}
+.ceo {
+  text-align: right;
+  font-size: 18px;
+}
+/*Final do CSS section-two*/
+
+/*Início do CSS section-three*/
+.btn-tec .btn-tecone{
+  word-wrap: break-all;
+}
+@media screen and (max-width:775px){
+  .btn-tec{
+    flex-wrap: nowrap;
+  }
+}
+/*Fim do CSS section-three*/
+
+/*Slider Container*/
+#image-container{
+  padding-top: 15px;
+}
+#mentoria-container{
+  padding-top: 15px;
+}
+/*Fim Slider Container*/
+
+/*Início do CSS section-four*/
+.section4 {
+  margin-top: 50px;
+  background-color: var(--bg);
+}
+.section4 img {
+  height: 250px;
+}
+.section4 h4 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: lowercase;
+  font-size: 30px;
+  color: var(--texto);
+}
+.section4 p {
+  padding: 30px;
+  font-size: 25px;
+  text-align: center;
+  text-transform: lowercase;
+  color: var(--texto);
+}
+.section4 .btn:hover {
+  background-color: var(--texto) !important;
+  color: var(--bg);
+}
+/*Fim do CSS section-four*/
+
+/*** FOOTER ***/
+.footer-Main {
+  background-color: var(--bg-btn);
+}
+footer .logo {
+  max-width: 320px;
+}
+footer h3 {
+  color: var(--texto);
+}
+footer .address ul {
+  margin-top: 20px;
+}
+footer .address a {
+  text-decoration: none;
+  color: var(--texto);
+  font-size: 1rem;
+  font-weight: 400;
+}
+footer .address li:nth-last-child(1n) {
+  margin-top: 10px;
+}
+footer .address .address-icon {
+  color: var(--texto);
+  font-size: 1.2rem;
+}
+footer .footer {
+  background-color: var(--texto);
+}
+footer .footer a {
+  text-decoration: none;
+}
+footer .footer span {
+  color: var(--bg);
+}
+footer .footer .simbol {
+  color: var(--bg2);
 }
