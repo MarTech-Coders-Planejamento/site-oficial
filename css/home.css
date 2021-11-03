@@ -196,6 +196,13 @@ h1 {
 .btn-tec .btn-tecone{
   word-wrap: break-all;
 }
+
+.btn-tec h3{
+  font-weight: bold;
+}
+.btn-tec .card-shadow:hover{
+	box-shadow:0 8px 10px #aaa;
+}
 @media screen and (max-width:775px){
   .btn-tec{
     flex-wrap: nowrap;
