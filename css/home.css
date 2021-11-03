@@ -122,9 +122,9 @@ h1 {
   font-style: normal;
   font-weight: bold;
 }
-#paragrafo1 p {
+#paragrafo1-0 p {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 20px;
   align-items: center;
 }
 .container1 {
@@ -134,21 +134,34 @@ h1 {
   margin-top: 20px;
   padding: 0 20px 20px 0;
 }
-#conteudo1 {
-  text-align: left;
-}
-#conteudo2 {
-  font-size: 17px;
-  font-weight: bold;
-  text-align: left;
-}
-#paragrafo1 {
+#paragrafo1-1 {
   margin: -24px;
   margin-top: 6px;
+  font-size: 20px;
 }
+.img-one {
+  display: flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+#paragrafo2 {
+  margin-right: 50px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+  justify-content:flex-end;
+  text-align: left;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 50px 30px 15px var(--texto);
+}
+
 .btn-group {
-  margin: 0 0 0 -50px;
-  position: relative;  
+  width: 10px;
+  margin-left: 0;
+  position: relative;
 }
 #btnGroupDrop1 {
   background-color: var(--bg2);
@@ -157,6 +170,12 @@ h1 {
 #btnGroupDrop1:hover {
   background-color: var(--texto) !important;
   color: var(--bg);
+}
+#alvo {
+  width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Fim do CSS section-one*/
 
