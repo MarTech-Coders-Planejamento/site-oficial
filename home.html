@@ -30,8 +30,8 @@
     <div class="container-fluid">
         <!--cabeçalho-->
         <!--navBar-->
-        <nav class="navbar navbar-expand-lg  navbar-light">
-            <div class="container">
+        <nav role="navigation" class="navbar navbar-expand-lg  navbar-light">
+            <div class="container-fluid">
                 <a class="navbar-brand">
                     <img src="./image/logo_martech-coders.svg" alt="logo-MarTechCoders" id="logo">
                 </a>
@@ -51,7 +51,7 @@
         </nav>
         <section class="section-one">
             <!--dobra1-->
-            <div class="container">
+            <div class="">
                 <div class="row rowSectionOne">
                     <div class="col-12 col-md-6 p-5" id="conteudo1">
                         <div class="title">
@@ -90,45 +90,30 @@
                     </div>
 
                 </div>
-                <div class="col-12 col-md-12 p-4" id="paragrafo2">
-                    <p">
-                        "Aqui na Martech Coders, você encontra uma rede de profissionais
-                        comprometidos com o seu crescimento, seja ele pessoal ou profissional, por isso
-                        nós temos a certeza que sendo um Coder Na Martech Coders você estará pronto para encarar
-                        os desafios do mercado e ser um ecxelente programador. <br>
-                        Nossa metodologia é fácil e aplicada para auxiliar, simplificando o caminho para seu sucesso!!!
-                        <br>
-                        Não é somente sobre transformar programadores. <br> É sobre transformar pessoas,
-                        contribuindo para o desemvolvimento das suas Soft Skills. <br> Ampliando conhecimentos
-                        e quebrando paradigmas de limitações." <br>
-                        <br> <br>
-                        Aqui você pode !!! <br>
-                        Aqui você faz !!!
-                        </p>
-                </div>
             </div>
-
+            
         </section>
+        <div class="row">
 
-        <div id="alvo">
-            <img src="image/Shared goals-cuate.svg" class="img-fluid img-two" alt="pessoas acertando o alvo">
+            <div id="alvo" class="col-12 col-sm-5">
+                <img src="image/Shared goals-cuate.svg" class="img-fluid " alt="pessoas acertando o alvo">
+            </div>
+            <div class="text-md-start col-12 col-sm-5" id="paragrafo2">
+                <p>
+                    Não é somente sobre transformar programadores. <br> É sobre transformar pessoas,
+                    contribuindo para o desemvolvimento das suas Soft Skills. <br> Ampliando conhecimentos
+                    e quebrando paradigmas de limitações.<br>
+                    </p>
+            </div>
         </div>
+        
 
         <section class="bg-two-2 p-5" id="section2">
             <!--dobra2-->
-            <article class="container">
                 <div class="row">
                     <h2 style="text-align: center;">Nosso Dia a Dia</h2>
-                    <div class="col-12 col-lg-6 align-self-center">
-                        <figure>
-                            <div data-aos="fade-right">
-                                <img src="image/good-team-cuate.svg" class="img-fluid imgDobraTwo"
-                                    alt="reuniao de pesosas">
-                            </div>
-                        </figure>
-                    </div>
                     <div class="classDobra2 col-12 col-lg-6 align-self-center">
-                        <div data-aos="fade-left">
+                        <div data-aos="zoom-in">
                             <p class="justify-content-start">
                                 "Somos uma comunidade que já começou humanizando nossas
                                 bases, processos e nossas pessoas. Compartilhamos aprendizado, experiências e
@@ -140,11 +125,18 @@
                                 <br />
 
                             </p>
+                            <p class="ceo"><b>Anaivania Cardoso</b> <br> Ceo da Martech</p>
                         </div>
-                        <p class="ceo"><b>Anaivania Cardoso</b> <br> Ceo da Martech</p>
+                    </div>
+                    <div class="col-12 col-lg-6 align-self-center">
+                        <figure>
+                            <div data-aos="zoom-in">
+                                <img src="image/good-team-cuate.svg" class="img-fluid imgDobraTwo"
+                                    alt="reuniao de pesosas">
+                            </div>
+                        </figure>
                     </div>
                 </div>
-            </article>
         </section>
         <!--fim da dobra2-->
         <section class="bg-one  btn-tec  ">
@@ -152,8 +144,8 @@
             <div class="p-5 row pt-5 w-100 flex-column  ">
                 <div class="btn-tecone col-sm-12 ">
                     <br>
-                    <h2 class="text-center"> Tecnologia como Agente de Transformação <br> e educação </h2>
-                    <div class="mt-5">
+                    <h2 class="text-center"> Tecnologia como Agente de Transformação <br> e Educação </h2>
+                    <div class="mt-5 div-texto-one">
                         <p class=" h5 justify-content-end  "> Programar é para além de um ofício, é um estilo de
                             vida
                             que envolve
@@ -168,7 +160,7 @@
                             o marketing e tecnologia para trazer desenvolvimento e soluções.</p>
                     </div>
                 </div>
-                <div class="row mt-5">
+                <div class="row mt-5 div-two">
 
                     <div class="col-sm-4 mb-3">
                         <div class=" card  text-center card-shadow">
@@ -177,7 +169,7 @@
                             <div class="cont" style="max-width: 400px; padding: 15px; min-height: 150px;">
                                 <div class="card-body">
                                     <h5 class="card-title">Educação</h5>
-                                    <p class="card-text text-muted ">"Educação não transforma o mundo. Educação muda as
+                                    <p class="card-text">"Educação não transforma o mundo. Educação muda as
                                         pessoas. Pessoas transformam o mundo." - Paulo Freire</p>
                                     <a href="#" class="card-link text-decoration-none">Saiba mais</a>
                                 </div>
@@ -192,7 +184,7 @@
                             <div class="cont" style="max-width: 400px; padding: 15px; min-height: 150px;">
                                 <div class="card-body  text-center">
                                     <h5 class="card-title">Marketing</h5>
-                                    <p class="card-text text-muted ">"Sucesso é a combinação de fracassos, começos
+                                    <p class="card-text">"Sucesso é a combinação de fracassos, começos
                                         errados e da determinação." - Nick Gleason</p>
                                     <a href="#" class="card-link text-decoration-none ">Saiba mais</a>
                                 </div>
@@ -207,7 +199,7 @@
                             <div class="cont" style="max-width: 400px; padding: 15px; min-height: 150px;">
                                 <div class="card-body  text-center">
                                     <h5 class="card-title">Tecnologia</h5>
-                                    <p class="card-text text-muted ">"No campo da tecnologia, a simplificação é sempre
+                                    <p class="card-text ">"No campo da tecnologia, a simplificação é sempre
                                         um grande avanço."-<br> Pierre Boulle </p>
                                     <a href="#" class="card-link text-decoration-none ">Saiba mais</a>
                                 </div>
@@ -217,16 +209,16 @@
 
                 </div>
             </div>
-    </div>
     </section>
+    <!--Fim dobra3-->
     <section class="bg-two">
         <!--dobra4-->
         <div class="d-flex flex-column ">
             <div class="d-flex flex-column">
-                <p class="h3 p-5 text-center">
+                <h3 class="h3 p-5 text-center">
                     Trabalhamos duro para que você tenha o melhor resultado <br />
                     possível.
-                </p>
+                </h3>
             </div>
             <div class="row p-5" style="max-width: 100vw; margin: 0;">
                 <div class="col-12">
@@ -295,24 +287,28 @@
                 </div>
             </div>
             <div class="d-flex flex-column">
-                <p class="h3 p-5 text-center">
+                <h3 class="h3 p-5 text-center">
                     Esse é o segredo para ter um conhecimento sólido <br />
                     na sua área de escolha.
-                </p>
+                </h3>
             </div>
     </section>
-    <section class="p-5 section4">
+    <section class="row section4">
+      <div class="row p-5 col-12 col-lg-6 align-self-end">
         <h4>Começe agora a sua jornada</h4>
-        <img src="image/img-rocket.svg" class="rounded mx-auto d-block" alt="img-foguete">
         <p>Chegou a hora de encarar o seu próximo desafio.</p>
-        <button style="background-color: #38e0be; color: #ffffff;" type="button" class="btn d-grid mx-auto">Entre nessa
+        <button type="button" class="btn btn-primary">Entre nessa
             jornada</button>
+      </div>
+      <div class="row col-12 col-lg-6 align-self-end">
+        <img src="image/img-rocket.svg" class="img-fluid" alt="imagem de um foguete">
+      </div>
     </section>
     <footer class="bg-one">
         <!--footer-->
-        <article>
+        <!-- <article>
             <form id="container">
-                <!-- <img id="img-form" src="/image/img-form.svg" />
+                <img id="img-form" src="/image/img-form.svg" />
                   <div id="container-form">
                     <div id="titulo"><h1>Cadastre-se</h1></div>
                     <section id="form-1">
@@ -565,7 +561,7 @@
                   </div>
                 </form>
               </article> -->
-    </footer>
+    </footer> 
     </div>
     <footer class="container-fluid footer-Main p-1 row text-center">
         <!--footer-->
@@ -623,7 +619,7 @@
             <p class="text-center text-white  m-0 pt-3 pb-3 ">
                 Copyright &copy; and developer by <a href="http://www.martechcoders.tech/"><span>Martech</span> <span
                         class="simbol">
-                        < &middot;&middot;&middot;>
+                        
                     </span> <span>Coders</span></a>
             </p>
         </article>
