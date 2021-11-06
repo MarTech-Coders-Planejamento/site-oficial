@@ -1,19 +1,18 @@
-
 :root {
   --navbar: #d2eee8;
   --bg: #ffffff;
   --bg2: #38e0be;
   --texto: #1a2b46;
   --textoLink: #565855;
-  --bg-btn:#90bcb3;/* Background dos botões*/
-  --border-btn:#5f9e92;/* Border dos botões*/
+  --bg-btn: #90bcb3; /* Background dos botões*/
+  --border-btn: #5f9e92; /* Border dos botões*/
 }
 * {
   font-family: "Tomorrow", sans-serif;
 }
 
 body {
-  background-color: var(--bg);  
+  background-color: var(--bg);
 }
 /*Inicio navBar*/
 .navbar {
@@ -31,12 +30,12 @@ body {
 .navbar .navbar-nav .nav-link {
   position: relative;
   font-size: 20px;
-  padding: 1rem .8rem;
+  padding: 1rem 0.8rem;
   color: var(--texto);
 }
 #navbarLinks a:hover {
   color: var(--bg2);
-  transition: .0s;
+  transition: 0s;
   /* box-shadow: 0 0 1em #38e0be; */
 }
 /*navBar*/
@@ -78,7 +77,7 @@ body {
   }
   .navbar .navbar-nav .nav-link {
     font-size: 14px;
-    padding: 1rem .8rem;
+    padding: 1rem 0.8rem;
     color: var(--textoLink);
   }
   .dobra-two {
@@ -138,7 +137,7 @@ h1 {
 }
 .img-one {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   margin-top: 40px;
 }
 #paragrafo2 {
@@ -148,7 +147,7 @@ h1 {
   font-size: 20px;
   font-weight: normal;
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   text-align: left;
   border: 1px solid;
   padding: 10px;
@@ -189,21 +188,21 @@ h1 {
 /*Final do CSS section-two*/
 
 /*Início do CSS section-three*/
-.btn-tec .btn-tecone{
+.btn-tec .btn-tecone {
   word-wrap: break-all;
 }
-@media screen and (max-width:775px){
-  .btn-tec{
+@media screen and (max-width: 775px) {
+  .btn-tec {
     flex-wrap: nowrap;
   }
 }
 /*Fim do CSS section-three*/
 
 /*Slider Container*/
-#image-container{
+#image-container {
   padding-top: 15px;
 }
-#mentoria-container{
+#mentoria-container {
   padding-top: 15px;
 }
 /*Fim Slider Container*/
@@ -238,20 +237,20 @@ h1 {
 
 /*** FOOTER ***/
 .footer-Main {
-  background-color: var(--bg-btn);
+  background-color: var(--texto);
 }
 footer .logo {
   max-width: 320px;
 }
 footer h3 {
-  color: var(--texto);
+  color: var(--bg);
 }
 footer .address ul {
   margin-top: 20px;
 }
 footer .address a {
   text-decoration: none;
-  color: var(--texto);
+  color: var(--bg);
   font-size: 1rem;
   font-weight: 400;
 }
@@ -259,11 +258,11 @@ footer .address li:nth-last-child(1n) {
   margin-top: 10px;
 }
 footer .address .address-icon {
-  color: var(--texto);
+  color: var(--bg);
   font-size: 1.2rem;
 }
 footer .footer {
-  background-color: var(--texto);
+  background-color: var(--bg2);
 }
 footer .footer a {
   text-decoration: none;

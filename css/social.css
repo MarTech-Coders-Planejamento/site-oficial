@@ -3,6 +3,9 @@
 .social {
   display: inline-flex;
 }
+footer h4 {
+  color: var(--bg);
+}
 footer a {
   color: var(--bg2);
 }

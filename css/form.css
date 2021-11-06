@@ -2,6 +2,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+.titulo-form {
+  color: black;
+}
 .form-1 {
   width: 45%;
   margin-top: 5%;
