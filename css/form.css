@@ -1,297 +1,59 @@
-#container {
+#modal {
   display: flex;
+  flex-wrap: wrap;
 }
-#img-form {
-  width: 52%;
+.form-1 {
+  width: 45%;
+  margin-top: 5%;
 }
-#titulo {
-  text-align: center;
-  color: rgb(85, 85, 85);
-}
-#form-1 {
-  margin-top: 40px;
-  display: flex; /*trocar para flex*/
-  flex-direction: column;
-  height: 60vh;
-  width: 40vw;
-}
-#form-1 input {
-  height: 40px;
-  border-radius: 3px;
-  width: auto;
-  border-color: none;
-  border: 1px solid rgb(148, 148, 148);
-  outline: 0;
-  margin-bottom: 40px;
-}
-#form-2 {
-  display: none; /*apagar*/
-  margin-top: 40px;
-  height: 60vh;
-  width: 40vw;
-}
-#container-form-2 {
-  display: flex;
-  height: 90%;
-}
-#container-form-2-A {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%;
-}
-#container-form-2-B {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-#form-3 {
-  display: none; /*apagar*/
-  margin-top: 40px;
-  height: 60vh;
-  width: 40vw;
-}
-#container-form-3 {
-  display: flex;
-  height: 90%;
-}
-#container-form-3-A {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%;
-}
-#container-form-3-B {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-#form-4 {
-  display: none; /*apagar*/
-  margin-top: 40px;
-  height: 60vh;
-  width: 40vw;
-}
-#container-form-4 {
-  display: flex;
-  height: 90%;
-}
-#container-form-4-A {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%;
-}
-#form-5 {
-  display: none; /*apagar*/
-  margin-top: 40px;
-  height: 60vh;
-  width: 40vw;
-}
-#container-form-5 {
-  display: flex;
-  height: 80%;
-}
-#container-form-5-A {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%;
-}
-#container-form-5-B {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-#form-6 {
+.form-2 {
   display: none;
-  margin-top: 40px;
-  height: 60vh;
-  width: 40vw;
+  width: 45%;
+  flex-wrap: wrap;
 }
-#container-form-6 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 90%;
+.form-3 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
 }
-#container-form-6 label {
-  display: flex;
+.form-4 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
 }
-#cont {
-  margin-left: 80px;
-  display: flex;
-  justify-content: space-between;
+.form-5 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
 }
-#cont-1 {
-  margin-top: 10px;
-  width: 90%;
-  margin-left: 37px;
-  display: flex;
-  justify-content: space-between;
+.form-6 {
+  display: none;
+  width: 45%;
+  flex-wrap: wrap;
 }
-#cont-2 {
-  margin-left: 60px;
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-}
-#cont-3 {
-  width: 90%;
-  margin-left: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-#cont-4 {
-  width: 90%;
-  margin-left: 55px;
-  display: flex;
-  justify-content: space-between;
-}
-#box-button {
-  display: flex;
-  justify-content: end;
-  margin-top: 30px;
-}
-#button-form {
-  background-color: rgb(49, 190, 162);
-  color: aliceblue;
-  width: 100px;
-  height: 45px;
-  outline: 0;
-  border-radius: 3px;
-  border: none;
-  transition: 0.3s;
-}
-#button-form:hover {
-  background-color: rgb(56, 224, 190);
-}
-#contador {
-  display: flex;
-  justify-content: end;
-}
-@media (max-width: 1200px) {
-  #container {
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 990px) {
+  .form-1 {
+    width: 95%;
+    margin-top: 5%;
   }
-}
-@media (max-width: 600px) {
-  #container {
-    width: 100vw;
-    display: block;
-    justify-content: center;
-    align-items: center;
+  .form-2 {
+    width: 95%;
+    flex-wrap: wrap;
   }
-  #container-form {
-    width: 100vw;
+  .form-3 {
+    width: 95%;
+    flex-wrap: wrap;
   }
-  #form-1 {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .form-4 {
+    width: 95%;
+    flex-wrap: wrap;
   }
-  #form-1 input {
-    width: 80vw;
+  .form-5 {
+    width: 95%;
+    flex-wrap: wrap;
   }
-  #form-2 {
-    display: none; /*apagar*/
-    margin-top: 40px;
-    height: 60vh;
-    width: 100vw;
-    padding: 10px;
-  }
-  #container-form-2 {
-    display: flex;
-    height: 90%;
-  }
-  #container-form-2-A {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
-  }
-  #container-form-2-B {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  #form-3 {
-    display: none; /*apagar*/
-    margin-top: 40px;
-    height: 60vh;
-    width: 100vw;
-    padding: 10px;
-  }
-  #container-form-3 {
-    display: flex;
-    height: 90%;
-  }
-  #container-form-3-A {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
-  }
-  #container-form-3-B {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  #form-4 {
-    display: none; /*apagar*/
-    margin-top: 40px;
-    height: 60vh;
-    width: 100vw;
-    padding: 10px;
-  }
-  #container-form-4 {
-    display: flex;
-    height: 90%;
-  }
-  #container-form-4-A {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
-  }
-  #form-5 {
-    display: none; /*apagar*/
-    margin-top: 40px;
-    height: 60vh;
-    width: 100vw;
-    padding: 10px;
-  }
-  #container-form-5 {
-    display: flex;
-    height: 80%;
-  }
-  #container-form-5-A {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
-  }
-  #container-form-5-B {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  #form-6 {
-    display: none;
-    margin-top: 40px;
-    height: 60vh;
-    width: 100vw;
-    padding: 10px;
-  }
-  #container-form-6 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 90%;
-  }
-  #container-form-6 label {
-    display: flex;
+  .form-6 {
+    width: 95%;
+    flex-wrap: wrap;
   }
 }
