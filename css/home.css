@@ -1,12 +1,8 @@
 
 :root {
-  --navbar: #d2eee8;
   --bg: #ffffff;
   --bg2: #38e0be;
   --texto: #1a2b46;
-  --textoLink: #565855;
-  --bg-btn:#90bcb3;/* Background dos botões*/
-  --border-btn:#5f9e92;/* Border dos botões*/
 }
 * {
   font-family: "Tomorrow", sans-serif;
