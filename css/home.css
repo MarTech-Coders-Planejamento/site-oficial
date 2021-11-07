@@ -54,8 +54,22 @@ body {
     border-bottom: 1px solid #00000067;
   }
 }
+@media screen and (max-width: 1024px) {
+  .btnTop {
+    display: none;
+  }
+}
 /*navBar*/
-@media (min-width: 260px) and (max-width: 426px) {
+@media (min-width: 260px) and (max-width: 530px) {
+  .navbar {
+    margin: 0;
+  }
+  .container-fluid .p-5 {
+    padding: 5px !important;
+  }
+  .title h1 {
+    font-size: 30px !important;
+  }
   h2 {
     font-size: 30px !important;
   }
@@ -65,31 +79,41 @@ body {
   #alvo {
     display: none;
   }
+  #logo {
+    width: 180px;
+  }
+  .navbar-toggler {
+    border: 0;
+    font-size: 20px;
+  }
+  #paragrafo2 .p-5 {
+    padding: 5px !important;
+  }
   #paragrafo1 {
     padding: 0;
     margin: -24px;
     margin-top: 6px;
   }
-  .rowSectionOne {
-    padding-right: 40px;
-    margin-top: 5px !important;
-    padding: 0 5px 5px 0;
+  .div-two {
+    margin: 10px 10px !important;
   }
-  .title h1 {
-    margin-top: 0;
-    font-size: 30px !important;
+  .rowSectionOne {
+    margin-top: 20px !important;
   }
   .img-one {
     width: 502px;
     margin: 0 50px;
     margin-left: 50px;
   }
-  #logo {
-    width: 140px;
+  .bg-two-2 {
+    margin-top: 50px;
+    margin-bottom: 90px;
   }
-  .navbar-toggler {
-    border: 0;
-    font-size: 20px;
+  .bg-two-2 h2 {
+    padding-bottom: 30px;
+  }
+  .btn-tec {
+    margin-bottom: 50px;
   }
   .navbar .navbar-nav .nav-link {
     font-size: 14px;
@@ -151,8 +175,8 @@ h1 {
   margin-top: 40px;
 }
 #paragrafo2 {
-  margin-top: 60px;
-  font-size: 30px;
+  margin-top: 120px;
+  font-size: 25px;
   display: flex;
   color: var(--texto);
 }
@@ -222,18 +246,13 @@ h1 {
 .btn-tec .card-shadow:hover{
 	box-shadow:0 8px 10px #aaa;
 }
-/* @media screen and (max-width:775px){
-  .btn-tec{
-    flex-wrap: nowrap;
-  }
-} */
 /*Fim do CSS section-three*/
 
 /*Slider Container*/
 .bg-two h3 {
   font-size: 35px;
   font-weight: 600;
-  color: var(--texto);
+  color: var(--texto)
 }
 #image-container{
   padding-top: 15px;
