@@ -67,10 +67,10 @@ body {
   .container-fluid .p-5 {
     padding: 5px !important;
   }
-  #title {
+  /* #title {
     font-size: 50px;
     display:flex;
-  }
+  } */
 
   h2 {
     font-size: 30px !important;
@@ -91,22 +91,22 @@ body {
   #paragrafo2 .p-5 {
     padding: 5px !important;
   }
-  #paragrafo1 {
+  /* #paragrafo1 {
    display: flex;
    justify-content: center;
    width: 100%;
    text-align: center;
-  }
+  } */
   .div-two {
     margin: 10px 10px !important;
-  }
-  .rowSectionOne {
+   }
+  /*.rowSectionOne {
     margin-top: 20px !important;
   }
   .img-one {
    display: flex;
    justify-content:end;
-  } 
+  }  */
 
   /* #img-lateral {
     align-items: flex-end;
@@ -161,7 +161,7 @@ h1 {
   font-style: normal;
   font-weight: bold;
 }
-
+/* 
 .rowSectionOne {
   display: flex;
 } 
@@ -180,14 +180,14 @@ h1 {
 .img-one {
   width: 1500px;
 }
-  
+*/
 #paragrafo2 {
   margin-top: 120px;
   font-size: 25px;
   display: flex;
   color: var(--texto);
 }
-
+/*
 .btn-group {
   width: 10px;
   margin-left: 0;
@@ -200,16 +200,16 @@ h1 {
 #btnGroupDrop1:hover {
   background-color: var(--bg2) !important;
   color: var(--bg);
-}
-#alvo {
-  /* width: 500px;
+} */
+/*#alvo {
+  width: 500px;
   position: relative;
   margin-left: auto;
-  margin-right: auto; */
-}
+  margin-right: auto;
+} 
 #alvo img {
   height: 450px;
-}
+}*/
 /*Fim do CSS section-one*/
 
 /*Inicio do CSS section-Two*/
