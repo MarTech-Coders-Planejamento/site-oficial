@@ -17,7 +17,7 @@ body {
 /*Inicio navBar*/
 .navbar {
   background-color: var(--bg);
-  padding: 14px 0;
+  margin: 0 25px 0 25px;
   /* box-shadow: 0 0 1em #38e0be; */
 }
 #logo {
@@ -29,7 +29,7 @@ body {
 }
 .navbar .navbar-nav .nav-link {
   position: relative;
-  font-size: 20px;
+  font-size: 25px;
   padding: 1rem 0.8rem;
   color: var(--texto);
 }
@@ -37,6 +37,16 @@ body {
   color: var(--bg2);
   transition: 0s;
   /* box-shadow: 0 0 1em #38e0be; */
+}
+.btnTop {
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--bg);
+  background-color: var(--texto) !important;
+}
+.btnTop:hover {
+  color: var(--bg);
+  background-color: var(--bg2) !important;
 }
 /*navBar*/
 @media screen and (max-width: 988px) {
@@ -49,6 +59,15 @@ body {
 }
 /*navBar*/
 @media (min-width: 260px) and (max-width: 426px) {
+  h2 {
+    font-size: 30px !important;
+  }
+  .btnTop {
+    display: none;
+  }
+  #alvo {
+    display: none;
+  }
   #paragrafo1 {
     padding: 0;
     margin: -24px;
@@ -69,7 +88,7 @@ body {
     margin-left: 50px;
   }
   #logo {
-    width: 200px;
+    width: 140px;
   }
   .navbar-toggler {
     border: 0;
@@ -80,16 +99,13 @@ body {
     padding: 1rem 0.8rem;
     color: var(--textoLink);
   }
-  .dobra-two {
-    display: none;
-  }
 }
 /*Fim navBar*/
 
 /*Background-color*/
 .container-fluid {
-  padding-right: 0;
-  padding-left: 0;
+  /* padding-right: 0;
+  padding-left: 0; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -123,9 +139,6 @@ h1 {
   font-size: 20px;
   align-items: center;
 }
-.container1 {
-  width: 100%;
-}
 .rowSectionOne {
   margin-top: 20px;
   padding: 0 20px 20px 0;
@@ -141,17 +154,10 @@ h1 {
   margin-top: 40px;
 }
 #paragrafo2 {
-  margin-right: 50px;
-  margin-left: 30px;
-  margin-top: 50px;
-  font-size: 20px;
-  font-weight: normal;
+  margin-top: 60px;
+  font-size: 30px;
   display: flex;
-  justify-content: flex-end;
-  text-align: left;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 50px 30px 15px var(--texto);
+  color: var(--texto);
 }
 
 .btn-group {
@@ -160,29 +166,38 @@ h1 {
   position: relative;
 }
 #btnGroupDrop1 {
-  background-color: var(--bg2);
+  background-color: var(--texto);
   color: var(--bg);
 }
 #btnGroupDrop1:hover {
-  background-color: var(--texto) !important;
+  background-color: var(--bg2) !important;
   color: var(--bg);
 }
 #alvo {
+  /* width: 500px;
   position: relative;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
+}
+#alvo img {
+  height: 500px;
 }
 /*Fim do CSS section-one*/
 
 /*Inicio do CSS section-Two*/
+.bg-two-2 h2 {
+  font-size: 35px;
+  font-weight: bolder;
+  color: var(--texto);
+}
 .imgDobraTwo {
   width: 3200px;
 }
 .classDobra2 p {
-  font-size: 20px;
+  font-size: 25px;
 }
 .ceo {
-  text-align: right;
+  text-align: left;
   font-size: 18px;
 }
 /*Final do CSS section-two*/
@@ -191,29 +206,50 @@ h1 {
 .btn-tec .btn-tecone {
   word-wrap: break-all;
 }
-@media screen and (max-width: 775px) {
-  .btn-tec {
+.btn-tec h2 {
+  font-size: 35px;
+  font-weight: bolder;
+  color: var(--texto);
+}
+.btn-tec .div-texto-one p {
+  font-size: 25px;
+  color: var(--texto);
+}
+.div-two p {
+  font-weight: bolder;
+  color: var(--texto);
+}
+.btn-tec h3 {
+  font-weight: bold;
+}
+.btn-tec .card-shadow:hover {
+  box-shadow: 0 8px 10px #aaa;
+}
+/* @media screen and (max-width:775px){
+  .btn-tec{
     flex-wrap: nowrap;
   }
-}
+} */
 /*Fim do CSS section-three*/
 
 /*Slider Container*/
-#image-container {
-  padding-top: 15px;
+.bg-two h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--texto);
 }
-#mentoria-container {
+#image-container {
   padding-top: 15px;
 }
 /*Fim Slider Container*/
 
 /*Início do CSS section-four*/
 .section4 {
-  margin-top: 50px;
+  margin-top: 80px;
   background-color: var(--bg);
 }
 .section4 img {
-  height: 250px;
+  height: 500px;
 }
 .section4 h4 {
   text-align: center;
@@ -229,8 +265,12 @@ h1 {
   text-transform: lowercase;
   color: var(--texto);
 }
-.section4 .btn:hover {
+.section4 .btn {
+  color: var(--bg);
   background-color: var(--texto) !important;
+}
+.section4 .btn:hover {
+  background-color: var(--bg2) !important;
   color: var(--bg);
 }
 /*Fim do CSS section-four*/
