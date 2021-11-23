@@ -13,7 +13,7 @@ html {
 }
 
 .padrao-p {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: var(--texto);
 }
 
@@ -27,7 +27,7 @@ body {
   /* box-shadow: 0 0 1em #38e0be; */
 }
 #logo {
-  width: 220px;
+  width: 24rem;
 }
 .navbar-toggler {
   border: 0;
@@ -35,7 +35,7 @@ body {
 }
 .navbar .navbar-nav .nav-link {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding: 2.5rem 4rem;
   color: var(--texto);
 }
@@ -69,7 +69,7 @@ body {
   }
 }
 /*navBar*/
-@media (min-width: 260px) and (max-width: 530px) {
+@media (min-width: 260px) and (max-width: 801px) {
   .navbar {
     margin: 0;
   }
@@ -86,13 +86,20 @@ body {
     font-size: 3rem !important;
   }
   .btnTop {
-    display: none;
+    display:flex;
+    justify-content: center;
   }
   #alvo {
     display: none;
   }
   #logo {
     width: 180px;
+  }
+  .img-one {
+    display: none;
+  }
+  #img-two  {
+    display: none;
   }
   .navbar-toggler {
     border: 0;
@@ -101,26 +108,9 @@ body {
   #paragrafo2 .p-5 {
     padding: 5px !important;
   }
-  /* #paragrafo1 {
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   text-align: center;
-  } */
   .div-two {
     margin: 10px 10px !important;
   }
-  /*.rowSectionOne {
-    margin-top: 20px !important;
-  }
-  .img-one {
-   display: flex;
-   justify-content:end;
-  }  */
-
-  /* #img-lateral {
-    align-items: flex-end;
-  } */
   .bg-two-2 {
     margin-top: 50px;
     margin-bottom: 90px;
@@ -136,13 +126,20 @@ body {
     padding: 1rem 0.8rem;
     color: var(--textoLink);
   }
+  .img-default {
+    display: flex;
+    justify-content: center;
+  }
+  /* .button-rocket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
 }
 /*Fim navBar*/
 
 /*Background-color*/
 .container-fluid {
-  /* padding-right: 0;    
-  padding-left: 0; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -171,7 +168,7 @@ body {
 h1 {
   text-align: left;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 5rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
@@ -180,7 +177,9 @@ h1 {
 }
 
 .img-one {
-  max-width: 50rem;
+  width: 200rem;
+  height: 45rem;
+
 }
 
 .img-two {
@@ -205,7 +204,7 @@ h1 {
 }
 .bg-two-2 h2 {
   font-size: 3.5rem;
-  font-weight: normal;
+  font-weight: bold;
   color: var(--texto);
 }
 .classDobra2 p {
@@ -228,18 +227,18 @@ h1 {
 }
 .btn-tec h2 {
   font-size: 3.5rem;
-  font-weight: normal;
+  font-weight: bold;
   color: var(--texto);
 }
 .btn-tec .div-texto-one p {
   color: var(--texto);
 }
 .div-two p {
-  font-weight: normal;
+  font-weight: bold;
   color: var(--texto);
 }
 .btn-tec h3 {
-  font-weight: normal;
+  font-weight: bold;
 }
 .btn-tec .card-shadow:hover {
   box-shadow: 0 8px 10px #aaa;
@@ -252,7 +251,7 @@ h1 {
 /*Slider Container*/
 .bg-two h3 {
   font-size: 3.5rem;
-  font-weight: normal;
+  font-weight: bold;
   color: var(--texto);
 }
 .card-title {
@@ -277,16 +276,15 @@ h1 {
   height: 500px;
 }
 .section4 .h4 {
-  margin-left: 40px;
-  font-weight: normal;
+  margin-left: 1.3rem;
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+  font-weight: bold;
   font-size: 3.5rem;
   color: var(--texto);
 }
-.section4 p {
-  margin-left: 20px;
-  padding: 30px;
+.section4 {
   font-size: 2.5rem;
-  text-transform: lowercase;
   color: var(--texto);
 }
 .section4 .btn {
@@ -296,6 +294,21 @@ h1 {
 .section4 .btn:hover {
   background-color: var(--bg2) !important;
   color: var(--bg);
+}
+.texto-rocket {
+  margin-bottom: 8rem;
+  margin-left: 1.3rem;
+}
+.button-rocket {
+ margin-left: 1.2rem;
+}
+.img-rocket{
+  margin-bottom: 8.4rem;
+}
+#bordao {
+  margin-bottom: 8rem;
+  font-size: 2rem;
+  font-style: italic;
 }
 /*Fim do CSS section-four*/
 
@@ -316,7 +329,7 @@ footer .address a {
   text-decoration: none;
   color: var(--bg);
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: bold;
 }
 footer .address li:nth-last-child(1n) {
   margin-top: 10px;
