@@ -28,7 +28,8 @@ body {
 }
 #logo {
   width: 24rem;
-}
+  margin-right: 10rem;
+} 
 .navbar-toggler {
   border: 0;
   font-size: 2.6rem;
@@ -36,12 +37,14 @@ body {
 .navbar .navbar-nav .nav-link {
   position: relative;
   font-size: 1.8rem;
-  padding: 2.5rem 4rem;
+  padding: 2rem 0 1.5rem 2rem;
+  margin-left: 5.3rem;
   color: var(--texto);
 }
 #navbarLinks a:hover {
   color: var(--bg2);
   transition: 0s;
+  text-decoration: underline;
   /* box-shadow: 0 0 1em #38e0be; */
 }
 .btnTop {
@@ -58,7 +61,7 @@ body {
 @media screen and (max-width: 988px) {
   .navbar .navbar-nav .nav-link {
     font-size: 1.8rem;
-    text-align: left;
+    text-align: center;
     line-height: 100%;
     border-bottom: 1px solid #00000067;
   }
@@ -70,30 +73,25 @@ body {
 }
 /*navBar*/
 @media (min-width: 260px) and (max-width: 801px) {
-  .navbar {
-    margin: 0;
-  }
-  .container-fluid .p-5 {
-    padding: 5px !important;
-  }
-  #title {
-    font-size: 50px;
-    display: flex;
+  h1 {
+    font-size: 4.2rem !important;
     text-align: center;
   }
-
+  .padrao-p {
+    text-align: center !important;
+  }
   h2 {
     font-size: 3rem !important;
   }
   .btnTop {
-    display:flex;
-    justify-content: center;
+    display:none;
   }
   #alvo {
     display: none;
   }
   #logo {
     width: 180px;
+    margin-right: 1rem;
   }
   .img-one {
     display: none;
@@ -101,12 +99,16 @@ body {
   #img-two  {
     display: none;
   }
+  .ceo {
+    display: flex;
+    text-align: center;
+  }
   .navbar-toggler {
     border: 0;
     font-size: 2rem;
   }
-  #paragrafo2 .p-5 {
-    padding: 5px !important;
+  #paragrafo2  {
+    
   }
   .div-two {
     margin: 10px 10px !important;
@@ -130,11 +132,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  /* .button-rocket {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
+  
 }
 /*Fim navBar*/
 
@@ -166,7 +164,6 @@ body {
 /*Início do CSS section-one */
 
 h1 {
-  text-align: left;
   font-style: normal;
   font-weight: bold;
   font-size: 5rem;
@@ -208,7 +205,7 @@ h1 {
   color: var(--texto);
 }
 .classDobra2 p {
-  text-align: left;
+  text-align: right;
 }
 .ceo {
   text-align: left;
@@ -250,12 +247,16 @@ h1 {
 
 /*Slider Container*/
 .bg-two h3 {
-  font-size: 3.5rem;
+  font-size: 3.54rem;
   font-weight: bold;
   color: var(--texto);
 }
 .card-title {
   font-size: 2.5rem;
+  color: var(--texto);
+}
+.card-text {
+  color: var(--texto);
 }
 #image-container {
   padding-top: 1.5rem;
@@ -276,18 +277,25 @@ h1 {
   height: 500px;
 }
 .section4 .h4 {
+  display: flex;
+  justify-content: center;
   margin-left: 1.3rem;
-  margin-bottom: 8rem;
-  margin-top: 8rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   font-weight: bold;
   font-size: 3.5rem;
   color: var(--texto);
 }
 .section4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   font-size: 2.5rem;
   color: var(--texto);
 }
 .section4 .btn {
+  display: flex;
+  justify-content: center;
   color: var(--bg);
   background-color: var(--texto) !important;
 }
@@ -296,11 +304,22 @@ h1 {
   color: var(--bg);
 }
 .texto-rocket {
-  margin-bottom: 8rem;
+  text-align: center;
+  margin-bottom: 2rem;
   margin-left: 1.3rem;
 }
+.seta {
+  font-size: 5rem;
+  font-weight: bolder;
+  margin-top: 20rem;
+}
 .button-rocket {
- margin-left: 1.2rem;
+ display: flex;
+ justify-content: center;
+ padding: 1.2rem;
+ border-radius: 5px;
+ color: var(--bg);
+ background-color: var(--texto) !important;
 }
 .img-rocket{
   margin-bottom: 8.4rem;
@@ -347,6 +366,7 @@ footer .address .address-icon {
 .footer-2 span {
   color: var(--bg);
 }
+
 .footer-2 .simbol {
   color: var(--bg2);
 }

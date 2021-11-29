@@ -24,8 +24,9 @@
   <link rel="stylesheet" href="./css/home.css">
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="./css/social.css">
-  <title>Martech Coders - Dê os primeiros passos rumo à programação</title>
-  <meta name=”description” content="Não é somente sobre transformar programadores. É sobre transformar pessoas, contribuindo para o desemvolvimento das suas Soft Skills."/>
+  <title>MarTech Coders - Dê os primeiros passos rumo à programação</title>
+  <meta name=”description”
+    content="Não é somente sobre transformar programadores. É sobre transformar pessoas, contribuindo para o desemvolvimento das suas Soft Skills." />
 </head>
 
 <body>
@@ -41,8 +42,8 @@
           aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarLinks">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarLinks">
+          <ul class="navbar-nav text-end">
             <a class="nav-link" aria-current="page" href="#">Início</a>
             <a class="nav-link" href="#quemSomos">Quem Somos</a>
             <a class="nav-link" href="#footerEnd">Contato</a>
@@ -60,7 +61,7 @@
         <div data-aos="zoom-in">
           <div class="row rowSectionOne">
             <div class="col-12 col-lg-6 p-5 conteudo1">
-              <div class="col-12 tamanho-titulo">
+              <div class="col-12 title">
                 <h1>Dê os primeiros passos rumo à uma carreira na programação</h1>
               </div>
 
@@ -95,6 +96,7 @@
               </div>
             </div>
           </div>
+        </div>
       </section>
     </div>
 
@@ -103,7 +105,7 @@
       <div class="container">
         <div class="row">
           <h2 style="text-align: center;">Nosso Dia a Dia</h2>
-          <div class=" col-12 col-lg-6 align-self-center classDobra2">
+          <div class=" col-12 col-lg-6 classDobra2">
             <div data-aos="zoom-in">
               <p class="pt-5 padrao-p">
                 "Somos uma comunidade que já começou humanizando nossas
@@ -203,9 +205,10 @@
       <!--dobra4-->
       <div class="d-flex flex-column container">
         <div class="d-flex flex-column pt-5">
-          <h3 class="h3  text-center">
+          <h3 class="h3 text-center">
             Trabalhamos duro para que você tenha o melhor resultado <br />
-            possível.
+            possível. <br> Esse é o segredo para ter um conhecimento sólido <br />
+            na sua área de escolha:
           </h3>
         </div>
         <div class="row my-5 py-3" style="max-width: 100vw;">
@@ -257,29 +260,32 @@
               </div>
             </div>
           </div>
-          <div class="d-flex flex-column container pt-5">
-            <h3 class="h3  text-center ">
+          <!-- <div class="d-flex flex-column container pt-5">
+            <h3 class="h3 text-center ">
               Esse é o segredo para ter um conhecimento sólido <br />
-              na sua área de escolha.
+            na sua área de escolha
             </h3>
-          </div>
+          </div> -->
     </section>
     <!-- Fim da dobra4 -->
     <section class="container section4">
       <!-- Início dobra5 -->
       <div class="row">
         <div class="p-5 col-12 col-lg-6 dobra5-p pb-5 pl-2">
-          <h4 class="h4">Começe agora a sua jornada</h4>
-          <p class="padrao-p pl-2 texto-rocket">Chegou a hora de encarar o seu próximo desafio.</p>
-            <button type="button" class="btnTop btn-lg button-rocket" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Entre
-              nessa
-              jornada</button>
-         </div>
-        
-        <div class="col-12 col-lg-6 align-self-auto img-default">
+          <h4 class="h4">Chegou a hora de encarar seu próximo desafio</h4>
+          <p class="padrao-p pl-2 texto-rocket">Seja um profissional de sucesso em uma das áreas mais inovadoras
+            do mercado global. </br> Clique no botão <br> e de partida no seu foguete. <br> <span class="seta"> 	&darr; </span></p>
+          <div class="">
+            <button type="button" class=" btn btn-lg button-rocket mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Entre
+              nessa jornada
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 img-default">
           <img src="image/img-rocket.svg" class="img-fluid img-rocket" alt="imagem de um foguete">
         </div>
-        <div class="col-12 text-center mb-5 mt-4" id="bordao">
+        <div class="col-12 text-center" id="bordao">
           <p>"Juntos, podemos ir mais longe do que jamais poderiamos ir sozinhos."</p>
         </div>
       </div>
@@ -291,320 +297,321 @@
       <article>
 
         <!-- Modal -->
+
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-          aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Cadastre-se</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div id="modal" class="modal-body">
-                <img src="/image/img-form.svg" style="width: 50%; min-width: 300px" />
-                <form id="form-1" class="form-1">
-                  <div class="mb-3">
-                    <label for="inputNome" class="form-label">Nome completo</label>
-                    <input type="text" class="form-control" name="nome" id="inputNome" />
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Cadastre-se</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div id="modal" class="modal-body">
+              <img src="./image/img-form.svg" style="width: 50%; min-width: 300px"  />
+              <form id="form-1" class="form-1">
+                <div class="mb-3">
+                  <label for="inputNome" class="form-label">Nome completo</label>
+                  <input type="text" class="form-control" name="nome" id="inputNome" />
+                </div>
+                <div class="mb-3">
+                  <label for="inputEmail" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" name="email" id="inputEmail" />
+                </div>
+                <div class="mb-3">
+                  <label for="inputTelefone" class="form-label">Telefone</label>
+                  <input type="phone" class="form-control" name="telefone" id="inputTelefone" />
+                </div>
+                <div class="mb-3">
+                  <label for="inputLinkedIn" class="form-label">LinkedIn</label>
+                  <input type="text" class="form-control" name="linkedin" id="inputLinkedIn" />
+                </div>
+              </form>
+              <form id="form-2" action="" class="form-2 justify-content-around">
+                <h4 class="pt-4 titulo-form">Em quem faixa etária você está?</h4>
+                <div class="conteiner pt1">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="idade" id="op1" />
+                    <label for="op1">15 a 19 anos</label>
                   </div>
-                  <div class="mb-3">
-                    <label for="inputEmail" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" name="email" id="inputEmail" />
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="idade" id="op2" />
+                    <label for="op2">20 a 24 anos</label>
                   </div>
-                  <div class="mb-3">
-                    <label for="inputTelefone" class="form-label">Telefone</label>
-                    <input type="phone" class="form-control" name="telefone" id="inputTelefone" />
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="idade" id="op3" />
+                    <label for="op3">25 a 29 anos</label>
                   </div>
-                  <div class="mb-3">
-                    <label for="inputLinkedIn" class="form-label">LinkedIn</label>
-                    <input type="text" class="form-control" name="linkedin" id="inputLinkedIn" />
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="idade" id="op4" />
+                    <label for="op4">30 a 34 anos</label>
                   </div>
-                </form>
-                <form id="form-2" action="" class="form-2 justify-content-around">
-                  <h4 class="pt-4 titulo-form">Em quem faixa etária você está?</h4>
-                  <div class="conteiner pt1">
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="idade" id="op1" />
-                      <label for="op1">15 a 19 anos</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="idade" id="op2" />
-                      <label for="op2">20 a 24 anos</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="idade" id="op3" />
-                      <label for="op3">25 a 29 anos</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="idade" id="op4" />
-                      <label for="op4">30 a 34 anos</label>
-                    </div>
+                </div>
+                <div class="content pt2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="idade" id="op1" />
+                    <label for="op1">35 a 39 anos</label>
                   </div>
-                  <div class="content pt2">
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="idade" id="op1" />
-                      <label for="op1">35 a 39 anos</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="idade" id="op2" />
-                      <label for="op2">40 a 44 anos</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="idade" id="op3" />
-                      <label for="op3">45 a 49 anos</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="idade" id="op4" />
-                      <label for="op4">+50</label>
-                    </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="idade" id="op2" />
+                    <label for="op2">40 a 44 anos</label>
                   </div>
-                </form>
-                <form id="form-3" action="" class="form-3 justify-content-around">
-                  <h3 class="pt-4 titulo-form">
-                    Referente ao seu gênero, você se identifica como:
-                  </h3>
-                  <div class="conteiner pt1 d-flex flex-column justify-content-around">
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="genero" id="op1" />
-                      <label for="op1">Mulher cis</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="genero" id="op2" />
-                      <label for="op2">Homem cis</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="genero" id="op3" />
-                      <label for="op3">Mulher Trans</label>
-                    </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="idade" id="op3" />
+                    <label for="op3">45 a 49 anos</label>
                   </div>
-                  <div class="conteiner pt2 d-flex flex-column justify-content-around">
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="genero" id="op4" />
-                      <label for="op4">Homem Trans</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="genero" id="op5" />
-                      <label for="op5">Não-binário</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="genero" id="op6" />
-                      <label for="op6">Outro</label>
-                    </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="idade" id="op4" />
+                    <label for="op4">+50</label>
                   </div>
-                </form>
-                <form id="form-4" class="form-4 justify-content-around" action="">
-                  <h3 class="pt-4 titulo-form">Você acha que seu nivel em programação é:</h3>
-                  <div class="conteiner d-flex flex-column justify-content-around">
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="nivel" id="op1" />
-                      <label for="op1">Iniciante</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="nivel" id="op2" />
-                      <label for="op2">Intermediário</label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="nivel" id="op3" />
-                      <label for="op3">Avançado</label>
-                    </div>
+                </div>
+              </form>
+              <form id="form-3" action="" class="form-3 justify-content-around">
+                <h3 class="pt-4 titulo-form">
+                  Referente ao seu gênero, você se identifica como:
+                </h3>
+                <div class="conteiner pt1 d-flex flex-column justify-content-around">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genero" id="op1" />
+                    <label for="op1">Mulher cis</label>
                   </div>
-                </form>
-                <form id="form-5" action="" class="form-5 justify-content-around">
-                  <h3 class="pt-4 titulo-form">
-                    Você tem domínio ou alguma noção das linguagnes abaixo?
-                  </h3>
-                  <div class="conteiner pt1">
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="Java" id="op1" />
-                      <label for="op1">Java</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="JavaScript" id="op2" />
-                      <label for="op2">JavaScript</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="Python" id="op3" />
-                      <label for="op3">Python</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="PHP" id="op4" />
-                      <label for="op4">PHP</label>
-                    </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genero" id="op2" />
+                    <label for="op2">Homem cis</label>
                   </div>
-                  <div class="content pt2">
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="C" id="op1" />
-                      <label for="op1">C</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="C++" id="op2" />
-                      <label for="op2">C++</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="C#" id="op3" />
-                      <label for="op3">C#</label>
-                    </div>
-                    <br />
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="R" id="op4" />
-                      <label for="op4">R</label>
-                    </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genero" id="op3" />
+                    <label for="op3">Mulher Trans</label>
                   </div>
-                </form>
-                <form id="form-6" action="" class="form-6 justify-content-between">
-                  <h3 class="pt-4 titulo-form">Qual o seu nivel em:</h3>
-                  <div class="container">
-                    <h6>HTML</h6>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                        value="option1" />
-                      <label class="form-check-label" for="inlineRadio1">0</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2" />
-                      <label class="form-check-label" for="inlineRadio2">1</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                        value="option3" />
-                      <label class="form-check-label" for="inlineRadio3">2</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
-                        value="option4" />
-                      <label class="form-check-label" for="inlineRadio4">3</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5"
-                        value="option5" />
-                      <label class="form-check-label" for="inlineRadio5">4</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6"
-                        value="option6" />
-                      <label class="form-check-label" for="inlineRadio6">5</label>
-                    </div>
+                </div>
+                <div class="conteiner pt2 d-flex flex-column justify-content-around">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genero" id="op4" />
+                    <label for="op4">Homem Trans</label>
                   </div>
-                  <div class="container">
-                    <h6>JS</h6>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio1"
-                        value="option1" />
-                      <label class="form-check-label" for="inlineRadio1">0</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio2"
-                        value="option2" />
-                      <label class="form-check-label" for="inlineRadio2">1</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio3"
-                        value="option3" />
-                      <label class="form-check-label" for="inlineRadio3">2</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio4"
-                        value="option4" />
-                      <label class="form-check-label" for="inlineRadio4">3</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio5"
-                        value="option5" />
-                      <label class="form-check-label" for="inlineRadio5">4</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio6"
-                        value="option6" />
-                      <label class="form-check-label" for="inlineRadio6">5</label>
-                    </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genero" id="op5" />
+                    <label for="op5">Não-binário</label>
                   </div>
-                  <div class="container">
-                    <h6>CSS</h6>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio1"
-                        value="option1" />
-                      <label class="form-check-label" for="inlineRadio1">0</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio2"
-                        value="option2" />
-                      <label class="form-check-label" for="inlineRadio2">1</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio3"
-                        value="option3" />
-                      <label class="form-check-label" for="inlineRadio3">2</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio4"
-                        value="option4" />
-                      <label class="form-check-label" for="inlineRadio4">3</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio5"
-                        value="option5" />
-                      <label class="form-check-label" for="inlineRadio5">4</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio6"
-                        value="option6" />
-                      <label class="form-check-label" for="inlineRadio6">5</label>
-                    </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genero" id="op6" />
+                    <label for="op6">Outro</label>
                   </div>
-                  <div class="container">
-                    <h6>GIT</h6>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio1"
-                        value="option1" />
-                      <label class="form-check-label" for="inlineRadio1">0</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio2"
-                        value="option2" />
-                      <label class="form-check-label" for="inlineRadio2">1</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio3"
-                        value="option3" />
-                      <label class="form-check-label" for="inlineRadio3">2</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio4"
-                        value="option4" />
-                      <label class="form-check-label" for="inlineRadio4">3</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio5"
-                        value="option5" />
-                      <label class="form-check-label" for="inlineRadio5">4</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio6"
-                        value="option6" />
-                      <label class="form-check-label" for="inlineRadio6">5</label>
-                    </div>
+                </div>
+              </form>
+              <form id="form-4" class="form-4 justify-content-around" action="">
+                <h3 class="pt-4 titulo-form">Você acha que seu nivel em programação é:</h3>
+                <div class="conteiner d-flex flex-column justify-content-around">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="nivel" id="op1" />
+                    <label for="op1">Iniciante</label>
                   </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button id="button-form" type="button" class="btn btn-primary" value="Cadastrar">
-                  Proximo
-                </button>
-              </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="nivel" id="op2" />
+                    <label for="op2">Intermediário</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="nivel" id="op3" />
+                    <label for="op3">Avançado</label>
+                  </div>
+                </div>
+              </form>
+              <form id="form-5" action="" class="form-5 justify-content-around">
+                <h3 class="pt-4 titulo-form">
+                  Você tem domínio ou alguma noção das linguagnes abaixo?
+                </h3>
+                <div class="conteiner pt1">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Java" id="op1" />
+                    <label for="op1">Java</label>
+                  </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="JavaScript" id="op2" />
+                    <label for="op2">JavaScript</label>
+                  </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Python" id="op3" />
+                    <label for="op3">Python</label>
+                  </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="PHP" id="op4" />
+                    <label for="op4">PHP</label>
+                  </div>
+                </div>
+                <div class="content pt2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="C" id="op1" />
+                    <label for="op1">C</label>
+                  </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="C++" id="op2" />
+                    <label for="op2">C++</label>
+                  </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="C#" id="op3" />
+                    <label for="op3">C#</label>
+                  </div>
+                  <br />
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="R" id="op4" />
+                    <label for="op4">R</label>
+                  </div>
+                </div>
+              </form>
+              <form id="form-6" action="" class="form-6 justify-content-between">
+                <h3 class="pt-4 titulo-form">Qual o seu nivel em:</h3>
+                <div class="container">
+                  <h6>HTML</h6>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                      value="option1" />
+                    <label class="form-check-label" for="inlineRadio1">0</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                      value="option2" />
+                    <label class="form-check-label" for="inlineRadio2">1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                      value="option3" />
+                    <label class="form-check-label" for="inlineRadio3">2</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                      value="option4" />
+                    <label class="form-check-label" for="inlineRadio4">3</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5"
+                      value="option5" />
+                    <label class="form-check-label" for="inlineRadio5">4</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6"
+                      value="option6" />
+                    <label class="form-check-label" for="inlineRadio6">5</label>
+                  </div>
+                </div>
+                <div class="container">
+                  <h6>JS</h6>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio1"
+                      value="option1" />
+                    <label class="form-check-label" for="inlineRadio1">0</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio2"
+                      value="option2" />
+                    <label class="form-check-label" for="inlineRadio2">1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio3"
+                      value="option3" />
+                    <label class="form-check-label" for="inlineRadio3">2</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio4"
+                      value="option4" />
+                    <label class="form-check-label" for="inlineRadio4">3</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio5"
+                      value="option5" />
+                    <label class="form-check-label" for="inlineRadio5">4</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-js" id="inlineRadio6"
+                      value="option6" />
+                    <label class="form-check-label" for="inlineRadio6">5</label>
+                  </div>
+                </div>
+                <div class="container">
+                  <h6>CSS</h6>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio1"
+                      value="option1" />
+                    <label class="form-check-label" for="inlineRadio1">0</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio2"
+                      value="option2" />
+                    <label class="form-check-label" for="inlineRadio2">1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio3"
+                      value="option3" />
+                    <label class="form-check-label" for="inlineRadio3">2</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio4"
+                      value="option4" />
+                    <label class="form-check-label" for="inlineRadio4">3</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio5"
+                      value="option5" />
+                    <label class="form-check-label" for="inlineRadio5">4</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-css" id="inlineRadio6"
+                      value="option6" />
+                    <label class="form-check-label" for="inlineRadio6">5</label>
+                  </div>
+                </div>
+                <div class="container">
+                  <h6>GIT</h6>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio1"
+                      value="option1" />
+                    <label class="form-check-label" for="inlineRadio1">0</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio2"
+                      value="option2" />
+                    <label class="form-check-label" for="inlineRadio2">1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio3"
+                      value="option3" />
+                    <label class="form-check-label" for="inlineRadio3">2</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio4"
+                      value="option4" />
+                    <label class="form-check-label" for="inlineRadio4">3</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio5"
+                      value="option5" />
+                    <label class="form-check-label" for="inlineRadio5">4</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions-g" id="inlineRadio6"
+                      value="option6" />
+                    <label class="form-check-label" for="inlineRadio6">5</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button id="button-form" type="button" class="btn btn-primary" value="Cadastrar">
+                Proximo
+              </button>
             </div>
           </div>
         </div>
+      </div>
       </article>
     </footer>
   </div>
@@ -687,7 +694,7 @@
     crossorigin="anonymous"></script>
   <!-- Slider -->
   <script src="scripts/carousel.js"></script>
-  <script type="text/javascript" src="/scripts/script-form.js"></script>
+  <script type="text/javascript" src="./scripts/script-form.js"></script>
 </body>
 
 </html>
