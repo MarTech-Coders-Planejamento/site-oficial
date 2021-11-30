@@ -2,9 +2,19 @@
   --bg: #ffffff;
   --bg2: #38e0be;
   --texto: #1a2b46;
+  --bg3: #3ad8b86e;
 }
 * {
   font-family: "Tomorrow", sans-serif;
+}
+
+html {
+  font-size: 62.5%; /*igual a 10px */
+}
+
+.padrao-p {
+  font-size: 2.5rem;
+  color: var(--texto);
 }
 
 body {
@@ -17,25 +27,28 @@ body {
   /* box-shadow: 0 0 1em #38e0be; */
 }
 #logo {
-  width: 320px;
-}
+  width: 24rem;
+  margin-right: 10rem;
+} 
 .navbar-toggler {
   border: 0;
-  font-size: 26px;
+  font-size: 2.6rem;
 }
 .navbar .navbar-nav .nav-link {
   position: relative;
-  font-size: 25px;
-  padding: 1rem 0.8rem;
+  font-size: 1.8rem;
+  padding: 2rem 0 1.5rem 2rem;
+  margin-left: 5.3rem;
   color: var(--texto);
 }
 #navbarLinks a:hover {
   color: var(--bg2);
   transition: 0s;
+  text-decoration: underline;
   /* box-shadow: 0 0 1em #38e0be; */
 }
 .btnTop {
-  padding: 10px;
+  padding: 1.2rem;
   border-radius: 5px;
   color: var(--bg);
   background-color: var(--texto) !important;
@@ -47,8 +60,8 @@ body {
 /*navBar*/
 @media screen and (max-width: 988px) {
   .navbar .navbar-nav .nav-link {
-    font-size: 18px;
-    text-align: left;
+    font-size: 1.8rem;
+    text-align: center;
     line-height: 100%;
     border-bottom: 1px solid #00000067;
   }
@@ -59,57 +72,44 @@ body {
   }
 }
 /*navBar*/
-@media (min-width: 260px) and (max-width: 530px) {
-  .navbar {
-    margin: 0;
+@media (min-width: 260px) and (max-width: 801px) {
+  h1 {
+    font-size: 4.2rem !important;
+    text-align: center;
   }
-  .container-fluid .p-5 {
-    padding: 5px !important;
+  .padrao-p {
+    text-align: center !important;
   }
-  /* #title {
-    font-size: 50px;
-    display:flex;
-  } */
-
   h2 {
-    font-size: 30px !important;
+    font-size: 3rem !important;
   }
   .btnTop {
-    display: none;
+    display:none;
   }
   #alvo {
     display: none;
   }
   #logo {
     width: 180px;
+    margin-right: 1rem;
+  }
+  .img-one {
+    display: none;
+  }
+  #img-two  {
+    display: none;
+  }
+  .ceo {
+    display: flex;
+    text-align: center;
   }
   .navbar-toggler {
     border: 0;
-    font-size: 20px;
+    font-size: 2rem;
   }
-  #paragrafo2 .p-5 {
-    padding: 5px !important;
-  }
-  /* #paragrafo1 {
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   text-align: center;
-  } */
   .div-two {
     margin: 10px 10px !important;
-   }
-  /*.rowSectionOne {
-    margin-top: 20px !important;
   }
-  .img-one {
-   display: flex;
-   justify-content:end;
-  }  */
-
-  /* #img-lateral {
-    align-items: flex-end;
-  } */
   .bg-two-2 {
     margin-top: 50px;
     margin-bottom: 90px;
@@ -121,17 +121,20 @@ body {
     margin-bottom: 50px;
   }
   .navbar .navbar-nav .nav-link {
-    font-size: 14px;
+    font-size: 1.4rem;
     padding: 1rem 0.8rem;
     color: var(--textoLink);
   }
+  .img-default {
+    display: flex;
+    justify-content: center;
+  }
+  
 }
 /*Fim navBar*/
 
 /*Background-color*/
 .container-fluid {
-  /* padding-right: 0;
-  padding-left: 0; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -147,7 +150,7 @@ body {
   color: var(--texto);
 }
 .section-one {
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
   color: var(--texto);
 }
 .bg-Form {
@@ -156,82 +159,59 @@ body {
 /*Fim Background-color*/
 
 /*Início do CSS section-one */
+
 h1 {
-  text-align: justify;
   font-style: normal;
   font-weight: bold;
-}
-/* 
-.rowSectionOne {
-  display: flex;
-} 
-
-#conteudo1 {
- padding: 50px !important;
- display: flex;
- justify-content: flex-start;
-
-} 
-#paragrafo1-1 {
- font-size: 25px;
- margin-top: 30px;
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  line-height: 6rem;
+  word-break: break-word; /*Essa linha limita os caracters a ficar dentro do bloco */
 }
 
 .img-one {
-  width: 1500px;
+  width: 200rem;
+  height: 45rem;
+
 }
-*/
+
+.img-two {
+  max-width: 42rem;
+}
+
 #paragrafo1-1 p {
-  text-align: justify;
+  text-align: left;
+  line-height: 3rem;
 }
 #paragrafo2 {
   padding-right: 50px;
-  text-align: justify;
-  font-size: 25px;
-  display: flex;
+  font-size: 2.5rem;
   color: var(--texto);
 }
-/*
-.btn-group {
-  width: 10px;
-  margin-left: 0;
-  position: relative;
-}
-#btnGroupDrop1 {
-  background-color: var(--texto);
-  color: var(--bg);
-}
-#btnGroupDrop1:hover {
-  background-color: var(--bg2) !important;
-  color: var(--bg);
-} */
-/*#alvo {
-  width: 500px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-} 
-#alvo img {
-  height: 450px;
-}*/
+
 /*Fim do CSS section-one*/
 
 /*Inicio do CSS section-Two*/
+#quemsomos {
+  margin-bottom: 5rem;
+}
 .bg-two-2 h2 {
-  font-size: 35px;
-  font-weight: bolder;
+  font-size: 3.5rem;
+  font-weight: bold;
   color: var(--texto);
 }
-.imgDobraTwo {
-  width: 3200px;
-}
 .classDobra2 p {
-  text-align: justify;
-  font-size: 25px;
+  text-align: right;
 }
 .ceo {
   text-align: left;
-  font-size: 18px;
+  font-size: 1.2rem;
+}
+
+.bg-grad {
+  background-image: linear-gradient(var(--bg), var(--bg3), var(--bg));
+  height: auto;
 }
 /*Final do CSS section-two*/
 
@@ -240,16 +220,15 @@ h1 {
   word-wrap: break-all;
 }
 .btn-tec h2 {
-  font-size: 35px;
-  font-weight: bolder;
+  font-size: 3.5rem;
+  font-weight: bold;
   color: var(--texto);
 }
 .btn-tec .div-texto-one p {
-  font-size: 25px;
   color: var(--texto);
 }
 .div-two p {
-  font-weight: bolder;
+  font-weight: bold;
   color: var(--texto);
 }
 .btn-tec h3 {
@@ -258,51 +237,94 @@ h1 {
 .btn-tec .card-shadow:hover {
   box-shadow: 0 8px 10px #aaa;
 }
+#cards {
+  margin-bottom: 5rem;
+}
 /*Fim do CSS section-three*/
 
 /*Slider Container*/
 .bg-two h3 {
-  font-size: 35px;
-  font-weight: 600;
-  color: var(--texto)
+  font-size: 3.54rem;
+  font-weight: bold;
+  color: var(--texto);
 }
 .card-title {
-  font-size: 25px;
+  font-size: 2.5rem;
+  color: var(--texto);
+}
+.card-text {
+  color: var(--texto);
 }
 #image-container {
-  padding-top: 15px;
+  padding-top: 1.5rem;
+  font-weight: bold;
+}
+#carousel {
+  padding-bottom: 5rem;
 }
 /*Fim Slider Container*/
 
 /*Início do CSS section-four*/
+
 .section4 {
-  margin-top: 80px;
+  margin-top: 8rem;
   background-color: var(--bg);
 }
 .section4 img {
   height: 500px;
 }
 .section4 .h4 {
-  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 1.3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   font-weight: bold;
-  text-transform: lowercase;
-  font-size: 30px;
+  font-size: 3.5rem;
   color: var(--texto);
 }
-.section4 p {
-  margin-left: 20px;
-  padding: 30px;
-  font-size: 25px;
-  text-transform: lowercase;
+.section4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
   color: var(--texto);
 }
 .section4 .btn {
+  display: flex;
+  justify-content: center;
   color: var(--bg);
   background-color: var(--texto) !important;
 }
 .section4 .btn:hover {
   background-color: var(--bg2) !important;
   color: var(--bg);
+}
+.texto-rocket {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 1.3rem;
+}
+.seta {
+  font-size: 5rem;
+  font-weight: bolder;
+  margin-top: 20rem;
+}
+.button-rocket {
+ display: flex;
+ justify-content: center;
+ padding: 1.2rem;
+ border-radius: 5px;
+ color: var(--bg);
+ background-color: var(--texto) !important;
+}
+.img-rocket{
+  margin-bottom: 8.4rem;
+}
+#bordao {
+  margin-bottom: 8rem;
+  font-size: 2rem;
+  font-style: italic;
 }
 /*Fim do CSS section-four*/
 
@@ -323,7 +345,7 @@ footer .address a {
   text-decoration: none;
   color: var(--bg);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: bold;
 }
 footer .address li:nth-last-child(1n) {
   margin-top: 10px;
@@ -332,15 +354,16 @@ footer .address .address-icon {
   color: var(--bg);
   font-size: 1.2rem;
 }
-footer .footer {
-  background-color: var(--bg2);
+.footer-2 {
+  background-color: rgb(1, 1, 19);
 }
-footer .footer a {
+.footer-2 a {
   text-decoration: none;
 }
-footer .footer span {
+.footer-2 span {
   color: var(--bg);
 }
-footer .footer .simbol {
+
+.footer-2 .simbol {
   color: var(--bg2);
 }
