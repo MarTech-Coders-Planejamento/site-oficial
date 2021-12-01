@@ -51,11 +51,11 @@ body {
   padding: 1.2rem;
   border-radius: 5px;
   color: var(--bg);
-  background-color: var(--texto) !important;
+  background-color: var(--texto);
 }
 .btnTop:hover {
   color: var(--bg);
-  background-color: var(--bg2) !important;
+  background-color: var(--bg2);
 }
 /*navBar*/
 @media screen and (max-width: 988px) {
@@ -63,6 +63,7 @@ body {
     font-size: 1.8rem;
     text-align: center;
     line-height: 100%;
+    margin-left: 0;
     border-bottom: 1px solid #00000067;
   }
 }
@@ -106,9 +107,6 @@ body {
   .navbar-toggler {
     border: 0;
     font-size: 2rem;
-  }
-  #paragrafo2  {
-    
   }
   .div-two {
     margin: 10px 10px !important;
@@ -192,6 +190,19 @@ h1 {
   font-size: 2.5rem;
   color: var(--texto);
 }
+.btnSectionOne {
+  padding: 1.2rem;
+  border-radius: 5px;
+  font-size: 1.6em;
+  width: 250px;
+  color: var(--bg);
+  background-color: var(--texto);
+}
+
+.btnSectionOne:hover {
+  color: var(--bg);
+  background-color: var(--bg2);
+}
 
 /*Fim do CSS section-one*/
 
@@ -209,13 +220,9 @@ h1 {
 }
 .ceo {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
 }
 
-.bg-grad {
-  background-image: linear-gradient(var(--bg), var(--bg3), var(--bg));
-  height: auto;
-}
 /*Final do CSS section-two*/
 
 /*Início do CSS section-three*/
@@ -308,18 +315,15 @@ h1 {
   margin-bottom: 2rem;
   margin-left: 1.3rem;
 }
-.seta {
-  font-size: 5rem;
-  font-weight: bolder;
-  margin-top: 20rem;
-}
 .button-rocket {
  display: flex;
  justify-content: center;
  padding: 1.2rem;
  border-radius: 5px;
+ width: 260px;
+ font-size: 16px;
  color: var(--bg);
- background-color: var(--texto) !important;
+ background-color: var(--texto);
 }
 .img-rocket{
   margin-bottom: 8.4rem;
@@ -328,6 +332,11 @@ h1 {
   margin-bottom: 8rem;
   font-size: 2rem;
   font-style: italic;
+}
+.fraseFinal {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: var(--bg2);
 }
 /*Fim do CSS section-four*/
 
