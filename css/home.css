@@ -87,6 +87,10 @@ body {
   .btnTop {
     display:none;
   }
+  .btnSectionOne {
+    display: grid;
+    margin: auto;
+  }
   #alvo {
     display: none;
   }
@@ -174,13 +178,10 @@ h1 {
 .img-one {
   width: 200rem;
   height: 45rem;
-
 }
-
 .img-two {
   max-width: 42rem;
 }
-
 #paragrafo1-1 p {
   text-align: left;
   line-height: 3rem;
@@ -192,13 +193,13 @@ h1 {
 }
 .btnSectionOne {
   padding: 1.2rem;
+  /* margin-top: 5rem !important; */
   border-radius: 5px;
   font-size: 1.6em;
   width: 250px;
   color: var(--bg);
   background-color: var(--texto);
 }
-
 .btnSectionOne:hover {
   color: var(--bg);
   background-color: var(--bg2);
@@ -219,7 +220,6 @@ h1 {
   text-align: right;
 }
 .ceo {
-  text-align: left;
   font-size: 2.0rem;
 }
 
@@ -316,6 +316,7 @@ h1 {
   margin-left: 1.3rem;
 }
 .button-rocket {
+ margin-top: 8rem;
  display: flex;
  justify-content: center;
  padding: 1.2rem;
