@@ -55,16 +55,6 @@ body {
 }
 
 /*Início media query*/
-@media screen and (max-width: 988px) {
-  .navbar .navbar-nav .nav-link {
-    font-size: 1.8rem;
-    text-align: center;
-    line-height: 100%;
-    margin-left: 0;
-    border-bottom: 1px solid #00000067;
-  }
-}
-
 @media (max-width: 991px) {
   .navbar .navbar-nav .nav-link {
     font-size: 2rem;
@@ -72,6 +62,9 @@ body {
     text-align: center;
     line-height: 100%;
     border-bottom: 1px solid #00000067;
+  }
+  #alvo {
+    display: none;
   }
 }
 
@@ -82,6 +75,10 @@ body {
 }
 
 @media (min-width: 260px) and (max-width: 801px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 1.4rem;
+    padding: 1rem 0.8rem;
+  }
   h1 {
     font-size: 4.2rem !important;
     text-align: center;
@@ -106,36 +103,22 @@ body {
     width: 180px;
     margin-right: 1rem;
   }
-  .img-one {
-    display: none;
-  }
   #img-two  {
     display: none;
   }
   .ceo {
     display: flex;
-    text-align: center;
+    text-align: center !important;
   }
   .navbar-toggler {
     border: 0;
     font-size: 2rem;
-  }
-  .div-two {
-    margin: 10px 10px !important;
-  }
-  .bg-two-2 {
-    margin-top: 50px;
-    margin-bottom: 90px;
   }
   .bg-two-2 h2 {
     padding-bottom: 30px;
   }
   .btn-tec {
     margin-bottom: 50px;
-  }
-  .navbar .navbar-nav .nav-link {
-    font-size: 1.4rem;
-    padding: 1rem 0.8rem;
   }
   .img-default {
     display: flex;
@@ -145,6 +128,10 @@ body {
     width: 300px;
     height: 500px;
     object-fit: fill;
+  }
+  .div-two .col-sm-12 {
+    justify-content: center !important;
+    padding-bottom: 5px;
   }
   
 }
@@ -223,6 +210,7 @@ h1 {
   margin-bottom: 5rem;
 }
 .bg-two-2 h2 {
+  padding-bottom: 30px;
   font-size: 3.5rem;
   font-weight: bold;
   color: var(--texto);
@@ -237,10 +225,11 @@ h1 {
 /*Final do CSS section-two*/
 
 /*Início do CSS section-three*/
-.btn-tec .btn-tecone {
+.btn-tec .btn-tec-one {
   word-wrap: break-all;
 }
-.btn-tec h2 {
+.btn-tec-one h2 {
+  padding-bottom: 30px;
   font-size: 3.5rem;
   font-weight: bold;
   color: var(--texto);
@@ -286,7 +275,6 @@ h1 {
 /*Fim Slider Container*/
 
 /*Início do CSS section-four*/
-
 .section4 {
   margin-top: 8rem;
   background-color: var(--bg);
@@ -321,6 +309,9 @@ h1 {
   background-color: var(--bg2) !important;
   color: var(--bg);
 }
+/*Fim do CSS section-four*/
+
+/*Fim do CSS section-five*/
 .texto-rocket {
   text-align: center;
   margin-bottom: 2rem;
@@ -350,7 +341,8 @@ h1 {
   font-weight: bold;
   color: var(--bg2);
 }
-/*Fim do CSS section-four*/
+/*Início do CSS section-five*/
+
 
 /*** FOOTER ***/
 .footer-Main {
