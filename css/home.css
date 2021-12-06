@@ -35,7 +35,7 @@ body {
 .navbar .navbar-nav .nav-link {
   position: relative;
   font-size: 2rem;
-  padding: 0 10px 0 20px;
+  padding: 0 20px 0 20px;
   color: var(--texto);
 }
 #navbarLinks a:hover {
@@ -167,7 +167,6 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 5rem;
-  margin-top: 2rem;
   margin-bottom: 4rem;
   line-height: 6rem;
   word-break: break-word; /*Essa linha limita os caracters a ficar dentro do bloco */
