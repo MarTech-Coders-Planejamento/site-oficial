@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="./css/home.css">
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="./css/social.css">
-  <title>MarTech Coders - Dê os primeiros passos rumo à programação</title>
+  <title>MarTech Coders - Dê os primeiros passos</title>
   <meta name=”description”
     content="Não é somente sobre transformar programadores. É sobre transformar pessoas, contribuindo para o desemvolvimento das suas Soft Skills." />
 </head>
@@ -42,8 +42,8 @@
           aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarLinks">
-          <ul class="navbar-nav text-end">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
+          <ul class="navbar-nav">
             <a class="nav-link" aria-current="page" href="#">Início</a>
             <a class="nav-link" href="#quemSomos">Quem Somos</a>
             <a class="nav-link" href="#footerEnd">Contato</a>
@@ -62,7 +62,7 @@
           <div class="row rowSectionOne">
             <div class="col-12 col-lg-6 p-5 conteudo1">
               <div class="col-12 title">
-                <h1>Dê os primeiros passos rumo à uma carreira na programação</h1>
+                <h1>Dê os primeiros passos rumo à uma carreira MarTech e programação</h1>
               </div>
 
               <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
@@ -72,6 +72,9 @@
                     Estude em um ambiente de aprendizado colaborativo e de desenvolvimento de projetos em programação.
                   </p>
                 </div>
+                <button type="button" class="btn mt-5 btnSectionOne btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Entre
+                  nessa
+                  jornada</button>
               </div>
             </div>
             <div class="col-12 col-lg-6">
@@ -82,16 +85,15 @@
           </div>
 
           <div data-aos="zoom-in">
-            <div class="row p-5">
+            <div class="row p-5 mt-5">
 
               <div id="alvo" class="col-12 col-lg-6 align-self-center">
                 <img src="image/Team_spirit-cuate.svg" class="img-fluid img-two" alt="comemoração">
               </div>
-              <div class="col-12 col-lg-6 align-self-center" id="paragrafo2">
+              <div class="col-12 p-5 col-lg-6 align-self-center" id="paragrafo2">
                 <p class="padrao-p">
                   Não é somente sobre transformar programadores. <br> É sobre transformar pessoas,
-                  contribuindo para o desenvolvimento das suas Soft Skills. <br> Ampliando conhecimentos
-                  e quebrando paradigmas de limitações.
+                  contribuindo para o desenvolvimento das suas Soft Skills. 
                 </p>
               </div>
             </div>
@@ -99,7 +101,6 @@
         </div>
       </section>
     </div>
-
     <section class="bg-two-2 p-5 container" id="quemSomos">
       <!--dobra2-->
       <div class="container">
@@ -107,7 +108,7 @@
           <h2 style="text-align: center;">Nosso Dia a Dia</h2>
           <div class=" col-12 col-lg-6 classDobra2">
             <div data-aos="zoom-in">
-              <p class="pt-5 padrao-p">
+              <p class="padrao-p">
                 "Somos uma comunidade que já começou humanizando nossas
                 bases, processos e nossas pessoas. Compartilhamos aprendizado, experiências e
                 aprendemos
@@ -117,7 +118,7 @@
                 Assim são nossos coders!" <br />
                 <br />
               </p>
-              <p class="ceo"><b>Anaivânia Cardoso</b> <br> Ceo da MarTech Coders</p>
+              <p class="ceo d-block text-left"><b>Anaivânia Cardoso</b> <br> Ceo da MarTech Coders</p>
             </div>
           </div>
           <div class="col-12 col-lg-6 align-self-center">
@@ -132,10 +133,10 @@
       </div>
     </section>
     <!--fim da dobra2-->
-    <section class="bg-one  btn-tec  container" id="cards">
+    <section class="bg-one btn-tec container" id="cards">
       <!--dobra3-->
-      <div class="p-5 row pt-5 w-100 flex-column ">
-        <div class="btn-tecone col-sm-12 ">
+      <div class="p-5 row w-100 flex-column ">
+        <div class="btn-tec-one col-sm-12 ">
           <br>
           <h2 class="text-center"> Tecnologia como Agente de Transformação e <br> Educação </h2>
           <div class="mt-5 div-texto-one">
@@ -143,9 +144,7 @@
               vida
               que envolve
               percepção,
-              empatia, colaboratividade e disciplina. E isso é educação e cultura.</p>
-
-            <p class="text-left pt-5 padrao-p"> Nós da MarTech Coders aprendemos dentro de um
+              empatia, colaboratividade e disciplina. <br> Nós da MarTech Coders, aprendemos dentro de um
               ambiente
               colaborativo, integrativo e de empatia.
               Acreditamos que dessa forma iremos levar a programação para todos e todas, mesclando
@@ -155,7 +154,7 @@
         </div>
         <div class="row mt-5 div-two">
 
-          <div class="col-sm-4 d-flex">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 d-flex cardMain">
             <div class=" card  text-center card-shadow">
               <img class="card-img-top" src="image/education.svg" alt="imagem ilustrativa referente a educação">
               <div class="cont" style="max-width: 400px; min-height: 150px;">
@@ -163,27 +162,27 @@
                   <h5 class="card-title fw-bold">Educação</h5>
                   <p class="card-text padrao-p fw-normal fs-2">"Educação não transforma o mundo. Educação muda as
                     pessoas. Pessoas transformam o mundo." -<br> Paulo Freire</p>
-                  <a href="#" class="card-link text-decoration-none">Saiba mais</a>
+                  <!-- <a href="#" class="card-link text-decoration-none">Saiba mais</a> -->
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-4 d-flex">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 d-flex cardMain">
             <div class=" card text-center card-shadow">
               <img class="card-img-top" src="image/marketing.svg" alt="imagem ilustrativa referente ao marketing">
               <div class="cont" style="max-width: 400px; min-height: 150px;">
                 <div class="card-body  text-center">
-                  <h5 class="card-title fw-bold">Marketing</h5>
-                  <p class="card-text padrao-p fw-normal fs-2">"Sucesso é a combinação de fracassos, começos
-                    errados e da determinação." - <br> Nick Gleason</p>
-                  <a href="#" class="card-link text-decoration-none ">Saiba mais</a>
+                  <h5 class="card-title fw-bold">MarTech</h5>
+                  <p class="card-text padrao-p fw-normal fs-2">"Junção das palavras Marketing e Technology. Refere-se a plataformas que usam a tecnologia para potencializar o Marketing."
+                   -<br> Time MarTech Coders </p>
+                  <!-- <a href="#" class="card-link text-decoration-none ">Saiba mais</a> -->
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-4 d-flex">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 d-flex cardMain">
             <div class="card text-center card-shadow">
               <img class="card-img-top" src="image/technology.svg" alt="imagem ilustrativa referente a tecnologia">
               <div class="cont" style="max-width: 400px; min-height: 150px;">
@@ -191,7 +190,7 @@
                   <h5 class="card-title fw-bold">Tecnologia</h5>
                   <p class="card-text padrao-p fw-normal fs-2">"No campo da tecnologia, a simplificação é sempre
                     um grande avanço."-<br> Pierre Boulle </p>
-                  <a href="#" class="card-link text-decoration-none ">Saiba mais</a>
+                  <!-- <a href="#" class="card-link text-decoration-none ">Saiba mais</a> -->
                 </div>
               </div>
             </div>
@@ -206,18 +205,18 @@
       <div class="d-flex flex-column container">
         <div class="d-flex flex-column pt-5">
           <h3 class="h3 text-center">
-            Trabalhamos duro para que você tenha o melhor resultado <br />
+            Trabalhamos duro para que você tenha o melhor resultado 
             possível. <br> Esse é o segredo para ter um conhecimento sólido <br />
             na sua área de escolha:
           </h3>
         </div>
-        <div class="row my-5 py-3" style="max-width: 100vw;">
+        <div class="row my-5 py-3 " style="max-width: 100vw;">
           <div class="col-12">
             <div class="owl-carousel owl-theme">
               <div class="card" style="max-width: 540px; padding: 20px; min-height: 200px;">
                 <div class="row g-0">
                   <div id='image-container' class="col-md-4">
-                    <img src="./image/icon-video.png" class="img-fluid rounded-start" alt="...">
+                    <img src="./image/icon-video.png" class="img-fluid rounded mx-auto d-block" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
@@ -244,7 +243,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card" style="max-width: 540px; padding: 20px; min-height: 200px;">
+              <div class="card" style="max-width: 540px; padding: 20px; min-height: 217px;">
                 <div class="row g-0">
                   <div id='image-container' class="col-md-4">
                     <img src="./image/icon-mentoria.png" class="img-fluid rounded-start img-default" alt="...">
@@ -274,9 +273,9 @@
         <div class="p-5 col-12 col-lg-6 dobra5-p pb-5 pl-2">
           <h4 class="h4">Chegou a hora de encarar seu próximo desafio</h4>
           <p class="padrao-p pl-2 texto-rocket">Seja um profissional de sucesso em uma das áreas mais inovadoras
-            do mercado global. </br> Clique no botão <br> de partida no seu foguete. <br> <span class="seta"> 	&darr; </span></p>
+            do mercado global. </p>
           <div class="">
-            <button type="button" class=" btn btn-lg button-rocket mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Entre
+            <button type="button" class=" btn button-rocket mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Entre
               nessa jornada
             </button>
           </div>
@@ -286,18 +285,14 @@
           <img src="image/img-rocket.svg" class="img-fluid img-rocket" alt="imagem de um foguete">
         </div>
         <div class="col-12 text-center" id="bordao">
-          <p>"Juntos, podemos ir mais longe do que jamais poderiamos ir sozinhos."</p>
+          <p class="fraseFinal">"Juntos, podemos ir mais longe do que jamais poderiamos ir sozinhos."</p>
         </div>
       </div>
     </section>
-
     <!-- Fim dobra5 -->
     <footer class="bg-one">
-      <!--footer-->
       <article>
-
         <!-- Modal -->
-
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
           aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
@@ -372,7 +367,7 @@
 
   <article class="footer-2 col-sm-12 container-fluid">
     <p class="text-center text-white  m-0 pt-3 pb-3 ">
-      Copyright &copy; and developer by <a href="http://www.martechcoders.tech/"><span>Martech</span>
+      Copyright &copy; and developer by <a href="http://www.martechcoders.tech/"><span>MarTech</span>
         <span>Coders</span></a>
     </p>
   </article>

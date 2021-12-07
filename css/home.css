@@ -21,58 +21,64 @@ body {
   background-color: var(--bg);
 }
 /*Inicio navBar*/
-.navbar {
-  background-color: var(--bg);
-  margin: 0 25px 0 25px;
-  /* box-shadow: 0 0 1em #38e0be; */
-}
 #logo {
   width: 24rem;
   margin-right: 10rem;
-} 
+}
+.navbar {
+  background-color: var(--bg);
+}
 .navbar-toggler {
   border: 0;
   font-size: 2.6rem;
 }
 .navbar .navbar-nav .nav-link {
   position: relative;
-  font-size: 1.8rem;
-  padding: 2rem 0 1.5rem 2rem;
-  margin-left: 5.3rem;
+  font-size: 2rem;
+  padding: 0 20px 0 20px;
   color: var(--texto);
 }
 #navbarLinks a:hover {
   color: var(--bg2);
   transition: 0s;
   text-decoration: underline;
-  /* box-shadow: 0 0 1em #38e0be; */
 }
 .btnTop {
   padding: 1.2rem;
   border-radius: 5px;
   color: var(--bg);
-  background-color: var(--texto) !important;
+  background-color: var(--texto);
 }
 .btnTop:hover {
   color: var(--bg);
-  background-color: var(--bg2) !important;
+  background-color: var(--bg2);
 }
-/*navBar*/
-@media screen and (max-width: 988px) {
+
+/*Início media query*/
+@media (max-width: 991px) {
   .navbar .navbar-nav .nav-link {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    padding: 1rem 0.8rem;
     text-align: center;
     line-height: 100%;
     border-bottom: 1px solid #00000067;
   }
+  #alvo {
+    display: none;
+  }
 }
+
 @media screen and (max-width: 1024px) {
   .btnTop {
     display: none;
   }
 }
-/*navBar*/
+
 @media (min-width: 260px) and (max-width: 801px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 1.4rem;
+    padding: 1rem 0.8rem;
+  }
   h1 {
     font-size: 4.2rem !important;
     text-align: center;
@@ -86,6 +92,10 @@ body {
   .btnTop {
     display:none;
   }
+  .btnSectionOne {
+    display: grid;
+    margin: auto;
+  }
   #alvo {
     display: none;
   }
@@ -93,26 +103,16 @@ body {
     width: 180px;
     margin-right: 1rem;
   }
-  .img-one {
-    display: none;
-  }
   #img-two  {
     display: none;
   }
   .ceo {
     display: flex;
-    text-align: center;
+    text-align: center !important;
   }
   .navbar-toggler {
     border: 0;
     font-size: 2rem;
-  }
-  .div-two {
-    margin: 10px 10px !important;
-  }
-  .bg-two-2 {
-    margin-top: 50px;
-    margin-bottom: 90px;
   }
   .bg-two-2 h2 {
     padding-bottom: 30px;
@@ -120,18 +120,22 @@ body {
   .btn-tec {
     margin-bottom: 50px;
   }
-  .navbar .navbar-nav .nav-link {
-    font-size: 1.4rem;
-    padding: 1rem 0.8rem;
-    color: var(--textoLink);
-  }
   .img-default {
     display: flex;
     justify-content: center;
   }
+  .card {
+    width: 300px;
+    height: 500px;
+    object-fit: fill;
+  }
+  .div-two .col-sm-12 {
+    justify-content: center !important;
+    padding-bottom: 5px;
+  }
   
 }
-/*Fim navBar*/
+/*Fim media query*/
 
 /*Background-color*/
 .container-fluid {
@@ -150,7 +154,6 @@ body {
   color: var(--texto);
 }
 .section-one {
-  /* background-color: var(--bg); */
   color: var(--texto);
 }
 .bg-Form {
@@ -164,7 +167,6 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 5rem;
-  margin-top: 2rem;
   margin-bottom: 4rem;
   line-height: 6rem;
   word-break: break-word; /*Essa linha limita os caracters a ficar dentro do bloco */
@@ -173,13 +175,10 @@ h1 {
 .img-one {
   width: 200rem;
   height: 45rem;
-
 }
-
 .img-two {
   max-width: 42rem;
 }
-
 #paragrafo1-1 p {
   text-align: left;
   line-height: 3rem;
@@ -189,6 +188,19 @@ h1 {
   font-size: 2.5rem;
   color: var(--texto);
 }
+.btnSectionOne {
+  padding: 1.2rem;
+  /* margin-top: 5rem !important; */
+  border-radius: 5px;
+  font-size: 1.6em;
+  width: 250px;
+  color: var(--bg);
+  background-color: var(--texto);
+}
+.btnSectionOne:hover {
+  color: var(--bg);
+  background-color: var(--bg2);
+}
 
 /*Fim do CSS section-one*/
 
@@ -197,6 +209,7 @@ h1 {
   margin-bottom: 5rem;
 }
 .bg-two-2 h2 {
+  padding-bottom: 30px;
   font-size: 3.5rem;
   font-weight: bold;
   color: var(--texto);
@@ -205,21 +218,17 @@ h1 {
   text-align: right;
 }
 .ceo {
-  text-align: left;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
 }
 
-.bg-grad {
-  background-image: linear-gradient(var(--bg), var(--bg3), var(--bg));
-  height: auto;
-}
 /*Final do CSS section-two*/
 
 /*Início do CSS section-three*/
-.btn-tec .btn-tecone {
+.btn-tec .btn-tec-one {
   word-wrap: break-all;
 }
-.btn-tec h2 {
+.btn-tec-one h2 {
+  padding-bottom: 30px;
   font-size: 3.5rem;
   font-weight: bold;
   color: var(--texto);
@@ -265,7 +274,6 @@ h1 {
 /*Fim Slider Container*/
 
 /*Início do CSS section-four*/
-
 .section4 {
   margin-top: 8rem;
   background-color: var(--bg);
@@ -300,23 +308,24 @@ h1 {
   background-color: var(--bg2) !important;
   color: var(--bg);
 }
+/*Fim do CSS section-four*/
+
+/*Fim do CSS section-five*/
 .texto-rocket {
   text-align: center;
   margin-bottom: 2rem;
   margin-left: 1.3rem;
 }
-.seta {
-  font-size: 5rem;
-  font-weight: bolder;
-  margin-top: 20rem;
-}
 .button-rocket {
+ margin-top: 8rem;
  display: flex;
  justify-content: center;
  padding: 1.2rem;
  border-radius: 5px;
+ width: 260px;
+ font-size: 16px;
  color: var(--bg);
- background-color: var(--texto) !important;
+ background-color: var(--texto);
 }
 .img-rocket{
   margin-bottom: 8.4rem;
@@ -326,7 +335,13 @@ h1 {
   font-size: 2rem;
   font-style: italic;
 }
-/*Fim do CSS section-four*/
+.fraseFinal {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: var(--bg2);
+}
+/*Início do CSS section-five*/
+
 
 /*** FOOTER ***/
 .footer-Main {
